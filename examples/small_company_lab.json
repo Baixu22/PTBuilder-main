@@ -1,0 +1,80 @@
+{
+  "devices": [
+    { "name": "SC_CORE_SW1", "model": "2960-24TT", "x": 360, "y": 220 },
+    { "name": "SC_MARKET_PC1", "model": "PC-PT", "x": 80, "y": 420 },
+    { "name": "SC_HR_PC1", "model": "PC-PT", "x": 250, "y": 420 },
+    { "name": "SC_BIZ_PC1", "model": "PC-PT", "x": 430, "y": 420 },
+    { "name": "SC_FTP_SERVER", "model": "Server-PT", "x": 610, "y": 420 },
+    { "name": "SC_OFFICE_AP1", "model": "AccessPoint-PT-AC", "x": 610, "y": 170 },
+    { "name": "SC_GUEST_LAPTOP1", "model": "Laptop-PT", "x": 790, "y": 170 }
+  ],
+  "links": [
+    ["SC_MARKET_PC1", "FastEthernet0", "SC_CORE_SW1", "FastEthernet0/1", "straight"],
+    ["SC_HR_PC1", "FastEthernet0", "SC_CORE_SW1", "FastEthernet0/2", "straight"],
+    ["SC_BIZ_PC1", "FastEthernet0", "SC_CORE_SW1", "FastEthernet0/3", "straight"],
+    ["SC_FTP_SERVER", "FastEthernet0", "SC_CORE_SW1", "FastEthernet0/4", "straight"],
+    ["SC_OFFICE_AP1", "Ethernet0", "SC_CORE_SW1", "FastEthernet0/10", "straight"],
+    ["SC_GUEST_LAPTOP1", "FastEthernet0", "SC_CORE_SW1", "FastEthernet0/20", "straight"]
+  ],
+  "pcConfigs": {
+    "SC_MARKET_PC1": {
+      "ip": "192.168.10.11",
+      "mask": "255.255.255.0",
+      "gateway": "192.168.10.1"
+    },
+    "SC_HR_PC1": {
+      "ip": "192.168.20.11",
+      "mask": "255.255.255.0",
+      "gateway": "192.168.20.1"
+    },
+    "SC_BIZ_PC1": {
+      "ip": "192.168.30.11",
+      "mask": "255.255.255.0",
+      "gateway": "192.168.30.1"
+    },
+    "SC_FTP_SERVER": {
+      "ip": "192.168.30.100",
+      "mask": "255.255.255.0",
+      "gateway": "192.168.30.1"
+    },
+    "SC_GUEST_LAPTOP1": {
+      "ip": "172.16.50.11",
+      "mask": "255.255.255.0",
+      "gateway": "172.16.50.1"
+    }
+  },
+  "iosConfigs": {
+    "SC_CORE_SW1": "enable\nconfigure terminal\nhostname SC_CORE_SW1\nvlan 10\nname MARKET\nexit\nvlan 20\nname HR\nexit\nvlan 30\nname BUSINESS_INTRANET\nexit\nvlan 50\nname GUEST_WIFI\nexit\ninterface FastEthernet0/1\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/2\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/3\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/4\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/10\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/20\nswitchport mode access\nswitchport access vlan 50\nexit\nend"
+  },
+  "tests": [
+    {
+      "type": "same-subnet-ping",
+      "source": "SC_BIZ_PC1",
+      "destination": "SC_FTP_SERVER"
+    },
+    {
+      "type": "subnet-access",
+      "source": "SC_BIZ_PC1",
+      "destination": "SC_FTP_SERVER",
+      "expect": "allow"
+    },
+    {
+      "type": "subnet-access",
+      "source": "SC_MARKET_PC1",
+      "destination": "SC_FTP_SERVER",
+      "expect": "deny"
+    },
+    {
+      "type": "subnet-access",
+      "source": "SC_HR_PC1",
+      "destination": "SC_FTP_SERVER",
+      "expect": "deny"
+    },
+    {
+      "type": "subnet-access",
+      "source": "SC_GUEST_LAPTOP1",
+      "destination": "SC_FTP_SERVER",
+      "expect": "deny"
+    }
+  ]
+}

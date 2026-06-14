@@ -1,0 +1,188 @@
+{
+  "ok": true,
+  "schema": "ptbuilder.operation.plan.v1",
+  "summary": {
+    "requested": 5,
+    "applyable": 2,
+    "blocked": 2,
+    "unsupported": 0,
+    "verifyOnly": 1
+  },
+  "capabilities": {
+    "source": "manifest",
+    "ok": true,
+    "summary": {
+      "devicesScanned": 12,
+      "rootsScanned": 6,
+      "operations": 14,
+      "uiAutomationAvailable": true
+    }
+  },
+  "operations": [
+    {
+      "id": "op001",
+      "kind": "server-service",
+      "device": "FTP",
+      "status": "blocked",
+      "adapter": "ui-automation-required",
+      "capability": "server.ftp.configure",
+      "request": {
+        "device": "FTP",
+        "service": "ftp",
+        "enabled": true,
+        "users": [
+          {
+            "username": "staff",
+            "password": "staff123",
+            "permission": "rw"
+          }
+        ],
+        "capability": "server.ftp.configure"
+      },
+      "confidence": "medium",
+      "evidence": [
+        "Packet Tracer window is visible; no stable Builder API method was discovered."
+      ],
+      "reason": "Packet Tracer UI is visible, but this operation needs a model-specific UI automation recipe."
+    },
+    {
+      "id": "op002",
+      "kind": "wireless-ssid",
+      "device": "GUEST_AP1",
+      "status": "blocked",
+      "adapter": "ui-automation-required",
+      "capability": "wireless.ssid.configure",
+      "request": {
+        "device": "GUEST_AP1",
+        "ssid": "Corp-Guest",
+        "security": "wpa2-psk",
+        "key": "Guest@12345",
+        "capability": "wireless.ssid.configure"
+      },
+      "confidence": "medium",
+      "evidence": [
+        "Packet Tracer window is visible; no stable Builder API method was discovered."
+      ],
+      "reason": "Packet Tracer UI is visible, but this operation needs a model-specific UI automation recipe."
+    },
+    {
+      "id": "op003",
+      "kind": "acl",
+      "device": "R1",
+      "status": "applyable",
+      "adapter": "ios-cli",
+      "capability": "ios.cli.configure",
+      "request": {
+        "device": "R1",
+        "commands": [
+          "configure terminal",
+          "ip access-list extended BUSINESS_ONLY",
+          "permit ip 10.10.30.0 0.0.0.255 host 10.10.30.100",
+          "deny ip any host 10.10.30.100",
+          "permit ip any any",
+          "end"
+        ],
+        "capability": "ios.cli.configure"
+      },
+      "confidence": "high",
+      "evidence": [
+        {
+          "device": "PTB_TEST_SW1",
+          "model": "2960-24TT"
+        },
+        {
+          "device": "SC_CORE_SW1",
+          "model": "2960-24TT"
+        },
+        {
+          "device": "ACME_CORE_SW1",
+          "model": "2960-24TT"
+        }
+      ],
+      "commands": "configure terminal\nip access-list extended BUSINESS_ONLY\npermit ip 10.10.30.0 0.0.0.255 host 10.10.30.100\ndeny ip any host 10.10.30.100\npermit ip any any\nend"
+    },
+    {
+      "id": "op004",
+      "kind": "pc-config",
+      "device": "PC1",
+      "status": "applyable",
+      "adapter": "builder-js",
+      "capability": "pc.ip.configure,pc.gateway.configure,pc.dns.configure",
+      "request": {
+        "ip": "10.10.10.20",
+        "mask": "255.255.255.0",
+        "gateway": "10.10.10.1",
+        "dns": "10.10.30.100",
+        "device": "PC1",
+        "capability": "pc.ip.configure,pc.gateway.configure,pc.dns.configure"
+      },
+      "confidence": "high",
+      "evidence": [
+        "port.setIpSubnetMask"
+      ]
+    },
+    {
+      "id": "op005",
+      "kind": "connectivity-test",
+      "device": null,
+      "status": "verify-only",
+      "adapter": "pdu",
+      "capability": null,
+      "request": {
+        "source": "PC1",
+        "destination": "FTP",
+        "mode": "pdu",
+        "expect": "allow"
+      }
+    }
+  ],
+  "blocked": [
+    {
+      "id": "op001",
+      "kind": "server-service",
+      "device": "FTP",
+      "status": "blocked",
+      "adapter": "ui-automation-required",
+      "capability": "server.ftp.configure",
+      "request": {
+        "device": "FTP",
+        "service": "ftp",
+        "enabled": true,
+        "users": [
+          {
+            "username": "staff",
+            "password": "staff123",
+            "permission": "rw"
+          }
+        ],
+        "capability": "server.ftp.configure"
+      },
+      "confidence": "medium",
+      "evidence": [
+        "Packet Tracer window is visible; no stable Builder API method was discovered."
+      ],
+      "reason": "Packet Tracer UI is visible, but this operation needs a model-specific UI automation recipe."
+    },
+    {
+      "id": "op002",
+      "kind": "wireless-ssid",
+      "device": "GUEST_AP1",
+      "status": "blocked",
+      "adapter": "ui-automation-required",
+      "capability": "wireless.ssid.configure",
+      "request": {
+        "device": "GUEST_AP1",
+        "ssid": "Corp-Guest",
+        "security": "wpa2-psk",
+        "key": "Guest@12345",
+        "capability": "wireless.ssid.configure"
+      },
+      "confidence": "medium",
+      "evidence": [
+        "Packet Tracer window is visible; no stable Builder API method was discovered."
+      ],
+      "reason": "Packet Tracer UI is visible, but this operation needs a model-specific UI automation recipe."
+    }
+  ],
+  "files": {}
+}

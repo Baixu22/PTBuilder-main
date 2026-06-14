@@ -1,0 +1,54 @@
+{
+  "schema": "ptbuilder.operation-request.v1",
+  "services": [
+    {
+      "device": "FTP",
+      "service": "ftp",
+      "enabled": true,
+      "users": [
+        {
+          "username": "staff",
+          "password": "staff123",
+          "permission": "rw"
+        }
+      ]
+    }
+  ],
+  "wireless": [
+    {
+      "device": "GUEST_AP1",
+      "ssid": "Corp-Guest",
+      "security": "wpa2-psk",
+      "key": "Guest@12345"
+    }
+  ],
+  "acl": [
+    {
+      "device": "R1",
+      "commands": [
+        "configure terminal",
+        "ip access-list extended BUSINESS_ONLY",
+        "permit ip 10.10.30.0 0.0.0.255 host 10.10.30.100",
+        "deny ip any host 10.10.30.100",
+        "permit ip any any",
+        "end"
+      ]
+    }
+  ],
+  "pcConfigs": {
+    "PC1": {
+      "ip": "10.10.10.20",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1",
+      "dns": "10.10.30.100"
+    }
+  },
+  "tests": [
+    {
+      "source": "PC1",
+      "destination": "FTP",
+      "mode": "pdu",
+      "expect": "allow"
+    }
+  ]
+}

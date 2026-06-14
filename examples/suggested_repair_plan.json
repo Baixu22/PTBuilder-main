@@ -1,0 +1,15 @@
+{
+  "pcConfigs": {},
+  "moveDevices": [],
+  "removeDevices": [],
+  "removeLinks": [],
+  "links": [],
+  "manualActions": [],
+  "sourceIssues": [],
+  "generatedBy": "ptbuilder suggest-plan",
+  "strategy": {
+    "startHost": 10,
+    "gateway": null,
+    "subnet": null
+  }
+}

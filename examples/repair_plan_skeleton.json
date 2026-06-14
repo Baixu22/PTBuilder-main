@@ -1,0 +1,22 @@
+{
+  "pcConfigs": {},
+  "removeLinks": [],
+  "links": [],
+  "manualActions": [
+    {
+      "type": "inspect-link",
+      "link": 1,
+      "uuid": "{bcf08a9f-924e-5dc2-9d8b-7b5f714059ee}",
+      "hint": "Packet Tracer did not expose both endpoints. Inspect the cable visually or redraw it."
+    }
+  ],
+  "sourceIssues": [
+    {
+      "severity": "warn",
+      "type": "link-endpoint-unresolved",
+      "link": 1,
+      "uuid": "{bcf08a9f-924e-5dc2-9d8b-7b5f714059ee}",
+      "fix": "inspect-cable-or-redraw-link"
+    }
+  ]
+}

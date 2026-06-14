@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builder</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="bootstrap.bundle.min.js"></script>
+
+    <script src="interface.js"></script>
+
+    <style>
+        :root {
+            --ptb-bg: #f5f7fb;
+            --ptb-panel: #ffffff;
+            --ptb-border: #d7dee8;
+            --ptb-text: #182230;
+            --ptb-muted: #667085;
+            --ptb-ok: #15803d;
+            --ptb-warn: #b45309;
+            --ptb-bad: #b42318;
+        }
+
+        body {
+            background: var(--ptb-bg);
+            color: var(--ptb-text);
+        }
+
+        .app-shell {
+            gap: 10px;
+        }
+
+        .topbar {
+            background: var(--ptb-panel);
+            border: 1px solid var(--ptb-border);
+            border-radius: 8px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .toolbar-group,
+        .status-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .status-pill {
+            border: 1px solid var(--ptb-border);
+            border-radius: 999px;
+            padding: 4px 10px;
+            font-size: 12px;
+            line-height: 1.2;
+            color: var(--ptb-muted);
+            background: #fff;
+        }
+
+        .status-pill.ok {
+            color: var(--ptb-ok);
+            border-color: #bbf7d0;
+            background: #f0fdf4;
+        }
+
+        .status-pill.warn {
+            color: var(--ptb-warn);
+            border-color: #fed7aa;
+            background: #fff7ed;
+        }
+
+        .status-pill.bad {
+            color: var(--ptb-bad);
+            border-color: #fecaca;
+            background: #fef2f2;
+        }
+
+        .editor-wrap {
+            min-height: 0;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr);
+            grid-template-rows: minmax(0, 1fr) 88px;
+            gap: 10px;
+        }
+
+        #codeeditor {
+            border-color: var(--ptb-border);
+            border-radius: 8px;
+            resize: none;
+            line-height: 1.45;
+            tab-size: 4;
+        }
+
+        .result-panel {
+            background: #101828;
+            color: #e4e7ec;
+            border-radius: 8px;
+            border: 1px solid #1d2939;
+            margin: 0;
+            padding: 10px 12px;
+            overflow: auto;
+            font-size: 12px;
+            line-height: 1.35;
+        }
+
+        .form-check-input {
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body class="h-100">
+    <div class="h-100 p-3 d-flex flex-column app-shell">
+        <div class="topbar">
+            <div class="toolbar-group">
+                <button class="btn btn-sm btn-success shadow-none" onclick="executeCode()">Run</button>
+                <button class="btn btn-sm btn-outline-primary shadow-none" onclick="pasteFromClipboard()">Paste</button>
+                <button class="btn btn-sm btn-outline-secondary shadow-none" onclick="copyToClipboard()">Copy</button>
+                <button class="btn btn-sm btn-outline-danger shadow-none" onclick="clearEditor()">Clear</button>
+            </div>
+            <div class="status-group">
+                <label class="status-pill">
+                    <input id="bridgeEnabled" class="form-check-input me-1" type="checkbox" checked onchange="toggleBridge()">
+                    CLI Bridge
+                </label>
+                <span id="status" class="status-pill warn">Starting</span>
+                <span id="taskCount" class="status-pill">0 tasks</span>
+            </div>
+        </div>
+        <div class="editor-wrap flex-grow-1">
+            <textarea id="codeeditor" class="form-control font-monospace shadow-none" onchange="saveCode()" spellcheck="false"></textarea>
+            <pre id="resultPanel" class="result-panel">Ready</pre>
+        </div>
+    </div>
+    <script>
+        loadCode();
+        startBridgePolling();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,598 @@
+{
+  "ok": true,
+  "schema": "ptbuilder.capabilities.v1",
+  "generatedAt": "2026-06-14T19:24:39+0800",
+  "transport": "bridge",
+  "packetTracer": {
+    "deviceCount": 108,
+    "linkCount": 104
+  },
+  "summary": {
+    "devicesScanned": 9,
+    "rootsScanned": 6,
+    "operations": 14,
+    "uiAutomationAvailable": true
+  },
+  "operations": {
+    "topology.device.create": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high",
+      "evidence": [
+        "logicalWorkspace.addDevice"
+      ]
+    },
+    "topology.link.create": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high",
+      "evidence": [
+        "logicalWorkspace.createLink"
+      ]
+    },
+    "topology.device.remove": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high",
+      "evidence": [
+        "logicalWorkspace.removeDevice"
+      ]
+    },
+    "topology.snapshot": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high",
+      "evidence": [
+        "network.getDeviceCount"
+      ]
+    },
+    "pc.ip.configure": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high",
+      "evidence": [
+        "port.setIpSubnetMask"
+      ]
+    },
+    "pc.gateway.configure": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high",
+      "evidence": [
+        "port.setDefaultGateway"
+      ]
+    },
+    "pc.dns.configure": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high",
+      "evidence": [
+        "port.setDnsServerIp"
+      ]
+    },
+    "ios.cli.configure": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high",
+      "evidence": [
+        {
+          "device": "PTB_TEST_SW1",
+          "model": "2960-24TT"
+        },
+        {
+          "device": "SC_CORE_SW1",
+          "model": "2960-24TT"
+        }
+      ],
+      "note": "Uses device.enterCommand; best for routers/switches/firewalls."
+    },
+    "server.ftp.configure": {
+      "supported": true,
+      "adapter": "ui-automation-required",
+      "confidence": "medium",
+      "evidence": [
+        "Packet Tracer window is visible; no stable Builder API method was discovered."
+      ],
+      "note": "Requires a model-specific UI automation recipe and post-action verification."
+    },
+    "server.http.configure": {
+      "supported": true,
+      "adapter": "ui-automation-required",
+      "confidence": "medium",
+      "evidence": [
+        "Packet Tracer window is visible; no stable Builder API method was discovered."
+      ],
+      "note": "Requires a model-specific UI automation recipe and post-action verification."
+    },
+    "server.dns.configure": {
+      "supported": true,
+      "adapter": "ui-automation-required",
+      "confidence": "medium",
+      "evidence": [
+        "Packet Tracer window is visible; no stable Builder API method was discovered."
+      ],
+      "note": "Requires a model-specific UI automation recipe and post-action verification."
+    },
+    "server.dhcp.configure": {
+      "supported": true,
+      "adapter": "builder-js-candidate",
+      "confidence": "low",
+      "evidence": [
+        {
+          "device": "SC_FTP_SERVER",
+          "model": "Server-PT",
+          "methods": [
+            "getDhcpFlag",
+            "setDhcpFlag"
+          ]
+        }
+      ],
+      "note": "Candidate methods exist. Use an allowlisted adapter before invoking unknown method names."
+    },
+    "wireless.ssid.configure": {
+      "supported": true,
+      "adapter": "ui-automation-required",
+      "confidence": "medium",
+      "evidence": [
+        "Packet Tracer window is visible; no stable Builder API method was discovered."
+      ],
+      "note": "Wireless SSID support depends on device model. Use capability-scan plus UI inspection before applying."
+    },
+    "vpn.configure": {
+      "supported": true,
+      "adapter": "ios-cli-or-ui",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "device": "PTB_TEST_SW1",
+          "model": "2960-24TT"
+        },
+        {
+          "device": "SC_CORE_SW1",
+          "model": "2960-24TT"
+        }
+      ],
+      "note": "Prefer IOS/ASA CLI when the target supports it; otherwise use a UI automation recipe."
+    }
+  },
+  "devices": [
+    {
+      "name": "PTB_TEST_PC1",
+      "model": "PC-PT",
+      "type": 8,
+      "methodCount": 96,
+      "ports": 2,
+      "candidates": {
+        "dhcp": [
+          "getDhcpFlag",
+          "setDhcpFlag"
+        ],
+        "user": [
+          "addUserDesktopApp",
+          "addUserDesktopAppFrom",
+          "addUserDesktopAppFromGlobal",
+          "getUserDesktopAppAt",
+          "getUserDesktopAppByDir",
+          "getUserDesktopAppById",
+          "getUserDesktopAppCount",
+          "relinkUserDesktopApp",
+          "removeUserDesktopApp"
+        ]
+      }
+    },
+    {
+      "name": "PTB_TEST_SW1",
+      "model": "2960-24TT",
+      "type": 1,
+      "methodCount": 133,
+      "ports": 27,
+      "candidates": {
+        "ftp": [
+          "clearFtpPasswd",
+          "clearFtpUsername",
+          "getFtpPasswd",
+          "getFtpUsername",
+          "setFtpPasswd",
+          "setFtpUsername"
+        ],
+        "service": [
+          "getServicePasswordEncryption",
+          "setServicePasswordEncryption"
+        ],
+        "user": [
+          "addUserDesktopApp",
+          "addUserDesktopAppFrom",
+          "addUserDesktopAppFromGlobal",
+          "addUserPassEntry",
+          "clearFtpUsername",
+          "getEnablePassword",
+          "getFtpUsername",
+          "getServicePasswordEncryption",
+          "getUserDesktopAppAt",
+          "getUserDesktopAppByDir"
+        ]
+      }
+    },
+    {
+      "name": "Power Distribution Device0",
+      "model": "Power Distribution Device",
+      "type": 45,
+      "methodCount": 91,
+      "ports": 1,
+      "candidates": {
+        "user": [
+          "addUserDesktopApp",
+          "addUserDesktopAppFrom",
+          "addUserDesktopAppFromGlobal",
+          "getUserDesktopAppAt",
+          "getUserDesktopAppByDir",
+          "getUserDesktopAppById",
+          "getUserDesktopAppCount",
+          "relinkUserDesktopApp",
+          "removeUserDesktopApp"
+        ]
+      }
+    },
+    {
+      "name": "PTB_TEST_PC2",
+      "model": "PC-PT",
+      "type": 8,
+      "methodCount": 96,
+      "ports": 2,
+      "candidates": {
+        "dhcp": [
+          "getDhcpFlag",
+          "setDhcpFlag"
+        ],
+        "user": [
+          "addUserDesktopApp",
+          "addUserDesktopAppFrom",
+          "addUserDesktopAppFromGlobal",
+          "getUserDesktopAppAt",
+          "getUserDesktopAppByDir",
+          "getUserDesktopAppById",
+          "getUserDesktopAppCount",
+          "relinkUserDesktopApp",
+          "removeUserDesktopApp"
+        ]
+      }
+    },
+    {
+      "name": "SC_CORE_SW1",
+      "model": "2960-24TT",
+      "type": 1,
+      "methodCount": 133,
+      "ports": 27,
+      "candidates": {
+        "ftp": [
+          "clearFtpPasswd",
+          "clearFtpUsername",
+          "getFtpPasswd",
+          "getFtpUsername",
+          "setFtpPasswd",
+          "setFtpUsername"
+        ],
+        "service": [
+          "getServicePasswordEncryption",
+          "setServicePasswordEncryption"
+        ],
+        "user": [
+          "addUserDesktopApp",
+          "addUserDesktopAppFrom",
+          "addUserDesktopAppFromGlobal",
+          "addUserPassEntry",
+          "clearFtpUsername",
+          "getEnablePassword",
+          "getFtpUsername",
+          "getServicePasswordEncryption",
+          "getUserDesktopAppAt",
+          "getUserDesktopAppByDir"
+        ]
+      }
+    },
+    {
+      "name": "SC_MARKET_PC1",
+      "model": "PC-PT",
+      "type": 8,
+      "methodCount": 96,
+      "ports": 2,
+      "candidates": {
+        "dhcp": [
+          "getDhcpFlag",
+          "setDhcpFlag"
+        ],
+        "user": [
+          "addUserDesktopApp",
+          "addUserDesktopAppFrom",
+          "addUserDesktopAppFromGlobal",
+          "getUserDesktopAppAt",
+          "getUserDesktopAppByDir",
+          "getUserDesktopAppById",
+          "getUserDesktopAppCount",
+          "relinkUserDesktopApp",
+          "removeUserDesktopApp"
+        ]
+      }
+    },
+    {
+      "name": "SC_FTP_SERVER",
+      "model": "Server-PT",
+      "type": 9,
+      "methodCount": 97,
+      "ports": 1,
+      "candidates": {
+        "dhcp": [
+          "getDhcpFlag",
+          "setDhcpFlag"
+        ],
+        "user": [
+          "addUserDesktopApp",
+          "addUserDesktopAppFrom",
+          "addUserDesktopAppFromGlobal",
+          "getUserDesktopAppAt",
+          "getUserDesktopAppByDir",
+          "getUserDesktopAppById",
+          "getUserDesktopAppCount",
+          "relinkUserDesktopApp",
+          "removeUserDesktopApp",
+          "validateIoeUser"
+        ]
+      }
+    },
+    {
+      "name": "SC_OFFICE_AP1",
+      "model": "AccessPoint-PT-AC",
+      "type": 7,
+      "methodCount": 91,
+      "ports": 2,
+      "candidates": {
+        "user": [
+          "addUserDesktopApp",
+          "addUserDesktopAppFrom",
+          "addUserDesktopAppFromGlobal",
+          "getUserDesktopAppAt",
+          "getUserDesktopAppByDir",
+          "getUserDesktopAppById",
+          "getUserDesktopAppCount",
+          "relinkUserDesktopApp",
+          "removeUserDesktopApp"
+        ]
+      }
+    },
+    {
+      "name": "SC_GUEST_LAPTOP1",
+      "model": "Laptop-PT",
+      "type": 18,
+      "methodCount": 96,
+      "ports": 2,
+      "candidates": {
+        "dhcp": [
+          "getDhcpFlag",
+          "setDhcpFlag"
+        ],
+        "user": [
+          "addUserDesktopApp",
+          "addUserDesktopAppFrom",
+          "addUserDesktopAppFromGlobal",
+          "getUserDesktopAppAt",
+          "getUserDesktopAppByDir",
+          "getUserDesktopAppById",
+          "getUserDesktopAppCount",
+          "relinkUserDesktopApp",
+          "removeUserDesktopApp"
+        ]
+      }
+    }
+  ],
+  "roots": [
+    {
+      "name": "ipc",
+      "exists": true,
+      "methodCount": 19,
+      "candidates": {
+        "acl": {
+          "length": 0
+        },
+        "dhcp": {
+          "length": 0
+        },
+        "dns": {
+          "length": 0
+        },
+        "ftp": {
+          "length": 0
+        },
+        "http": {
+          "length": 0
+        },
+        "service": {
+          "length": 0
+        },
+        "user": [
+          "multiUserManager",
+          "userAppManager"
+        ],
+        "vpn": {
+          "length": 0
+        },
+        "wireless": {
+          "length": 0
+        }
+      }
+    },
+    {
+      "name": "network",
+      "exists": true,
+      "methodCount": 14,
+      "candidates": {
+        "acl": {
+          "length": 0
+        },
+        "dhcp": {
+          "length": 0
+        },
+        "dns": {
+          "length": 0
+        },
+        "ftp": {
+          "length": 0
+        },
+        "http": {
+          "length": 0
+        },
+        "service": {
+          "length": 0
+        },
+        "user": {
+          "length": 0
+        },
+        "vpn": {
+          "length": 0
+        },
+        "wireless": {
+          "length": 0
+        }
+      }
+    },
+    {
+      "name": "appWindow",
+      "exists": true,
+      "methodCount": 112,
+      "candidates": {
+        "acl": {
+          "length": 0
+        },
+        "dhcp": {
+          "length": 0
+        },
+        "dns": {
+          "length": 0
+        },
+        "ftp": {
+          "length": 0
+        },
+        "http": [
+          "getWebViewManager"
+        ],
+        "service": {
+          "length": 0
+        },
+        "user": [
+          "getUserCreatedPDU",
+          "getUserFolder"
+        ],
+        "vpn": {
+          "length": 0
+        },
+        "wireless": [
+          "getProcessId"
+        ]
+      }
+    },
+    {
+      "name": "activeWorkspace",
+      "exists": true,
+      "methodCount": 40,
+      "candidates": {
+        "acl": {
+          "length": 0
+        },
+        "dhcp": {
+          "length": 0
+        },
+        "dns": {
+          "length": 0
+        },
+        "ftp": {
+          "length": 0
+        },
+        "http": {
+          "length": 0
+        },
+        "service": {
+          "length": 0
+        },
+        "user": {
+          "length": 0
+        },
+        "vpn": {
+          "length": 0
+        },
+        "wireless": {
+          "length": 0
+        }
+      }
+    },
+    {
+      "name": "logicalWorkspace",
+      "exists": true,
+      "methodCount": 71,
+      "candidates": {
+        "acl": {
+          "length": 0
+        },
+        "dhcp": {
+          "length": 0
+        },
+        "dns": {
+          "length": 0
+        },
+        "ftp": {
+          "length": 0
+        },
+        "http": {
+          "length": 0
+        },
+        "service": {
+          "length": 0
+        },
+        "user": {
+          "length": 0
+        },
+        "vpn": {
+          "length": 0
+        },
+        "wireless": {
+          "length": 0
+        }
+      }
+    },
+    {
+      "name": "userCreatedPDU",
+      "exists": true,
+      "methodCount": 23,
+      "candidates": {
+        "acl": {
+          "length": 0
+        },
+        "dhcp": {
+          "length": 0
+        },
+        "dns": {
+          "length": 0
+        },
+        "ftp": {
+          "length": 0
+        },
+        "http": {
+          "length": 0
+        },
+        "service": {
+          "length": 0
+        },
+        "user": {
+          "length": 0
+        },
+        "vpn": {
+          "length": 0
+        },
+        "wireless": {
+          "length": 0
+        }
+      }
+    }
+  ],
+  "raw": null,
+  "warnings": [],
+  "files": {}
+}

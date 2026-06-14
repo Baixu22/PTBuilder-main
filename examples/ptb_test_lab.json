@@ -1,0 +1,28 @@
+{
+  "devices": [
+    { "name": "PTB_TEST_PC1", "model": "PC-PT", "x": 100, "y": 260 },
+    { "name": "PTB_TEST_SW1", "model": "2960-24TT", "x": 280, "y": 180 },
+    { "name": "PTB_TEST_PC2", "model": "PC-PT", "x": 460, "y": 260 }
+  ],
+  "links": [
+    ["PTB_TEST_PC1", "FastEthernet0", "PTB_TEST_SW1", "FastEthernet0/1", "straight"],
+    ["PTB_TEST_PC2", "FastEthernet0", "PTB_TEST_SW1", "FastEthernet0/2", "straight"]
+  ],
+  "pcConfigs": {
+    "PTB_TEST_PC1": {
+      "ip": "192.168.10.11",
+      "mask": "255.255.255.0"
+    },
+    "PTB_TEST_PC2": {
+      "ip": "192.168.10.12",
+      "mask": "255.255.255.0"
+    }
+  },
+  "tests": [
+    {
+      "type": "same-subnet-ping",
+      "source": "PTB_TEST_PC1",
+      "destination": "PTB_TEST_PC2"
+    }
+  ]
+}

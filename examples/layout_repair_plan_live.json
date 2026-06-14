@@ -1,0 +1,837 @@
+{
+  "moveDevices": [
+    {
+      "name": "ACME_MKT_PC01",
+      "x": 80,
+      "y": 260,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC02",
+      "x": 175,
+      "y": 260,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC03",
+      "x": 270,
+      "y": 260,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC04",
+      "x": 365,
+      "y": 260,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC05",
+      "x": 460,
+      "y": 260,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC06",
+      "x": 80,
+      "y": 345,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC07",
+      "x": 175,
+      "y": 345,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC08",
+      "x": 270,
+      "y": 345,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC09",
+      "x": 365,
+      "y": 345,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC10",
+      "x": 460,
+      "y": 345,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC11",
+      "x": 80,
+      "y": 430,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC12",
+      "x": 175,
+      "y": 430,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC13",
+      "x": 270,
+      "y": 430,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC14",
+      "x": 365,
+      "y": 430,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC15",
+      "x": 460,
+      "y": 430,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC16",
+      "x": 80,
+      "y": 515,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC17",
+      "x": 175,
+      "y": 515,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC18",
+      "x": 270,
+      "y": 515,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC19",
+      "x": 365,
+      "y": 515,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_MKT_PC20",
+      "x": 460,
+      "y": 515,
+      "group": "10.10.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_HR_PC01",
+      "x": 700,
+      "y": 260,
+      "group": "10.10.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_HR_PC02",
+      "x": 795,
+      "y": 260,
+      "group": "10.10.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_HR_PC03",
+      "x": 890,
+      "y": 260,
+      "group": "10.10.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_HR_PC04",
+      "x": 985,
+      "y": 260,
+      "group": "10.10.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_HR_PC05",
+      "x": 1080,
+      "y": 260,
+      "group": "10.10.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_HR_PC06",
+      "x": 700,
+      "y": 345,
+      "group": "10.10.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_HR_PC07",
+      "x": 795,
+      "y": 345,
+      "group": "10.10.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_HR_PC08",
+      "x": 890,
+      "y": 345,
+      "group": "10.10.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_HR_PC09",
+      "x": 985,
+      "y": 345,
+      "group": "10.10.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_HR_PC10",
+      "x": 1080,
+      "y": 345,
+      "group": "10.10.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_HR_PC11",
+      "x": 700,
+      "y": 430,
+      "group": "10.10.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_HR_PC12",
+      "x": 795,
+      "y": 430,
+      "group": "10.10.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC01",
+      "x": 1320,
+      "y": 260,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC02",
+      "x": 1415,
+      "y": 260,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC03",
+      "x": 1510,
+      "y": 260,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC04",
+      "x": 1605,
+      "y": 260,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC05",
+      "x": 1700,
+      "y": 260,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC06",
+      "x": 1320,
+      "y": 345,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC07",
+      "x": 1415,
+      "y": 345,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC08",
+      "x": 1510,
+      "y": 345,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC09",
+      "x": 1605,
+      "y": 345,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC10",
+      "x": 1700,
+      "y": 345,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC11",
+      "x": 1320,
+      "y": 430,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC12",
+      "x": 1415,
+      "y": 430,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC13",
+      "x": 1510,
+      "y": 430,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC14",
+      "x": 1605,
+      "y": 430,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC15",
+      "x": 1700,
+      "y": 430,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC16",
+      "x": 1320,
+      "y": 515,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC17",
+      "x": 1415,
+      "y": 515,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC18",
+      "x": 1510,
+      "y": 515,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC19",
+      "x": 1605,
+      "y": 515,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_BIZ_PC20",
+      "x": 1700,
+      "y": 515,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_FTP",
+      "x": 1320,
+      "y": 600,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_INTRANET",
+      "x": 1415,
+      "y": 600,
+      "group": "10.10.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_FIN_PC01",
+      "x": 80,
+      "y": 780,
+      "group": "10.10.40.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_FIN_PC02",
+      "x": 175,
+      "y": 780,
+      "group": "10.10.40.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_FIN_PC03",
+      "x": 270,
+      "y": 780,
+      "group": "10.10.40.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_FIN_PC04",
+      "x": 365,
+      "y": 780,
+      "group": "10.10.40.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_FIN_PC05",
+      "x": 460,
+      "y": 780,
+      "group": "10.10.40.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_FIN_PC06",
+      "x": 80,
+      "y": 865,
+      "group": "10.10.40.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_FIN_PC07",
+      "x": 175,
+      "y": 865,
+      "group": "10.10.40.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_FIN_PC08",
+      "x": 270,
+      "y": 865,
+      "group": "10.10.40.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_FIN_PC09",
+      "x": 365,
+      "y": 865,
+      "group": "10.10.40.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_FIN_PC10",
+      "x": 460,
+      "y": 865,
+      "group": "10.10.40.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC01",
+      "x": 700,
+      "y": 780,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC02",
+      "x": 795,
+      "y": 780,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC03",
+      "x": 890,
+      "y": 780,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC04",
+      "x": 985,
+      "y": 780,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC05",
+      "x": 1080,
+      "y": 780,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC06",
+      "x": 700,
+      "y": 865,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC07",
+      "x": 795,
+      "y": 865,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC08",
+      "x": 890,
+      "y": 865,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC09",
+      "x": 985,
+      "y": 865,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC10",
+      "x": 1080,
+      "y": 865,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC11",
+      "x": 700,
+      "y": 950,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC12",
+      "x": 795,
+      "y": 950,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC13",
+      "x": 890,
+      "y": 950,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC14",
+      "x": 985,
+      "y": 950,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC15",
+      "x": 1080,
+      "y": 950,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC16",
+      "x": 700,
+      "y": 1035,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC17",
+      "x": 795,
+      "y": 1035,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC18",
+      "x": 890,
+      "y": 1035,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC19",
+      "x": 985,
+      "y": 1035,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_ENG_PC20",
+      "x": 1080,
+      "y": 1035,
+      "group": "10.10.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_WIFI_CLIENT01",
+      "x": 1320,
+      "y": 780,
+      "group": "10.10.60.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_WIFI_CLIENT02",
+      "x": 1415,
+      "y": 780,
+      "group": "10.10.60.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_WIFI_CLIENT03",
+      "x": 1510,
+      "y": 780,
+      "group": "10.10.60.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_WIFI_CLIENT04",
+      "x": 1605,
+      "y": 780,
+      "group": "10.10.60.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_VPN_CLIENT01",
+      "x": 80,
+      "y": 1300,
+      "group": "10.10.70.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "ACME_VPN_CLIENT02",
+      "x": 175,
+      "y": 1300,
+      "group": "10.10.70.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "SC_GUEST_LAPTOP1",
+      "x": 700,
+      "y": 1300,
+      "group": "172.16.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "PTB_TEST_PC1",
+      "x": 1320,
+      "y": 1300,
+      "group": "192.168.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "PTB_TEST_PC2",
+      "x": 1415,
+      "y": 1300,
+      "group": "192.168.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "SC_MARKET_PC1",
+      "x": 1510,
+      "y": 1300,
+      "group": "192.168.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "SC_HR_PC1",
+      "x": 80,
+      "y": 1820,
+      "group": "192.168.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "SC_BIZ_PC1",
+      "x": 700,
+      "y": 1820,
+      "group": "192.168.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "SC_FTP_SERVER",
+      "x": 795,
+      "y": 1820,
+      "group": "192.168.30.0/24",
+      "role": "terminal"
+    }
+  ],
+  "manualActions": [],
+  "generatedBy": "ptbuilder layout-plan",
+  "summary": {
+    "groups": 11,
+    "moveDevices": 97,
+    "terminals": 97,
+    "networkDevices": 0,
+    "warnings": 0,
+    "plannedMinDistance": 85.0,
+    "closestPair": [
+      "ACME_MKT_PC01",
+      "ACME_MKT_PC06"
+    ]
+  },
+  "groupSummaries": [
+    {
+      "group": "10.10.10.0/24",
+      "network": "10.10.10.0/24",
+      "terminals": 20,
+      "networkDevices": 0,
+      "moves": 20,
+      "origin": {
+        "x": 80,
+        "y": 120
+      }
+    },
+    {
+      "group": "10.10.20.0/24",
+      "network": "10.10.20.0/24",
+      "terminals": 12,
+      "networkDevices": 0,
+      "moves": 12,
+      "origin": {
+        "x": 700,
+        "y": 120
+      }
+    },
+    {
+      "group": "10.10.30.0/24",
+      "network": "10.10.30.0/24",
+      "terminals": 22,
+      "networkDevices": 0,
+      "moves": 22,
+      "origin": {
+        "x": 1320,
+        "y": 120
+      }
+    },
+    {
+      "group": "10.10.40.0/24",
+      "network": "10.10.40.0/24",
+      "terminals": 10,
+      "networkDevices": 0,
+      "moves": 10,
+      "origin": {
+        "x": 80,
+        "y": 640
+      }
+    },
+    {
+      "group": "10.10.50.0/24",
+      "network": "10.10.50.0/24",
+      "terminals": 20,
+      "networkDevices": 0,
+      "moves": 20,
+      "origin": {
+        "x": 700,
+        "y": 640
+      }
+    },
+    {
+      "group": "10.10.60.0/24",
+      "network": "10.10.60.0/24",
+      "terminals": 4,
+      "networkDevices": 0,
+      "moves": 4,
+      "origin": {
+        "x": 1320,
+        "y": 640
+      }
+    },
+    {
+      "group": "10.10.70.0/24",
+      "network": "10.10.70.0/24",
+      "terminals": 2,
+      "networkDevices": 0,
+      "moves": 2,
+      "origin": {
+        "x": 80,
+        "y": 1160
+      }
+    },
+    {
+      "group": "172.16.50.0/24",
+      "network": "172.16.50.0/24",
+      "terminals": 1,
+      "networkDevices": 0,
+      "moves": 1,
+      "origin": {
+        "x": 700,
+        "y": 1160
+      }
+    },
+    {
+      "group": "192.168.10.0/24",
+      "network": "192.168.10.0/24",
+      "terminals": 3,
+      "networkDevices": 0,
+      "moves": 3,
+      "origin": {
+        "x": 1320,
+        "y": 1160
+      }
+    },
+    {
+      "group": "192.168.20.0/24",
+      "network": "192.168.20.0/24",
+      "terminals": 1,
+      "networkDevices": 0,
+      "moves": 1,
+      "origin": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "group": "192.168.30.0/24",
+      "network": "192.168.30.0/24",
+      "terminals": 2,
+      "networkDevices": 0,
+      "moves": 2,
+      "origin": {
+        "x": 700,
+        "y": 1680
+      }
+    }
+  ],
+  "warnings": [],
+  "strategy": {
+    "origin": {
+      "x": 80,
+      "y": 120
+    },
+    "groupWidth": 620,
+    "groupHeight": 520,
+    "columns": 3,
+    "deviceColumns": 5,
+    "xSpacing": 95,
+    "ySpacing": 85,
+    "minDistance": 70,
+    "namePrefix": null,
+    "subnet": null,
+    "includeNetworkDevices": false
+  }
+}

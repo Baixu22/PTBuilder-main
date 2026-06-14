@@ -1,0 +1,130 @@
+{
+  "moveDevices": [
+    {
+      "name": "SC_GUEST_LAPTOP1",
+      "x": 80,
+      "y": 260,
+      "group": "172.16.50.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "PTB_TEST_PC1",
+      "x": 700,
+      "y": 260,
+      "group": "192.168.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "PTB_TEST_PC2",
+      "x": 795,
+      "y": 260,
+      "group": "192.168.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "SC_MARKET_PC1",
+      "x": 890,
+      "y": 260,
+      "group": "192.168.10.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "SC_HR_PC1",
+      "x": 1320,
+      "y": 260,
+      "group": "192.168.20.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "SC_BIZ_PC1",
+      "x": 80,
+      "y": 780,
+      "group": "192.168.30.0/24",
+      "role": "terminal"
+    },
+    {
+      "name": "SC_FTP_SERVER",
+      "x": 175,
+      "y": 780,
+      "group": "192.168.30.0/24",
+      "role": "terminal"
+    }
+  ],
+  "manualActions": [],
+  "generatedBy": "ptbuilder layout-plan",
+  "summary": {
+    "groups": 4,
+    "moveDevices": 7,
+    "terminals": 7,
+    "networkDevices": 0,
+    "warnings": 0,
+    "plannedMinDistance": 95.0,
+    "closestPair": [
+      "PTB_TEST_PC1",
+      "PTB_TEST_PC2"
+    ]
+  },
+  "groupSummaries": [
+    {
+      "group": "172.16.50.0/24",
+      "network": "172.16.50.0/24",
+      "terminals": 1,
+      "networkDevices": 0,
+      "moves": 1,
+      "origin": {
+        "x": 80,
+        "y": 120
+      }
+    },
+    {
+      "group": "192.168.10.0/24",
+      "network": "192.168.10.0/24",
+      "terminals": 3,
+      "networkDevices": 0,
+      "moves": 3,
+      "origin": {
+        "x": 700,
+        "y": 120
+      }
+    },
+    {
+      "group": "192.168.20.0/24",
+      "network": "192.168.20.0/24",
+      "terminals": 1,
+      "networkDevices": 0,
+      "moves": 1,
+      "origin": {
+        "x": 1320,
+        "y": 120
+      }
+    },
+    {
+      "group": "192.168.30.0/24",
+      "network": "192.168.30.0/24",
+      "terminals": 2,
+      "networkDevices": 0,
+      "moves": 2,
+      "origin": {
+        "x": 80,
+        "y": 640
+      }
+    }
+  ],
+  "warnings": [],
+  "strategy": {
+    "origin": {
+      "x": 80,
+      "y": 120
+    },
+    "groupWidth": 620,
+    "groupHeight": 520,
+    "columns": 3,
+    "deviceColumns": 5,
+    "xSpacing": 95,
+    "ySpacing": 85,
+    "minDistance": 70,
+    "namePrefix": null,
+    "subnet": null,
+    "includeNetworkDevices": false
+  }
+}

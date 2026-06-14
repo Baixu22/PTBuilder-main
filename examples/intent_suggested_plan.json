@@ -1,0 +1,64 @@
+{
+  "pcConfigs": {
+    "PTB_TEST_PC2": {
+      "ip": "192.168.10.40",
+      "mask": "255.255.255.0",
+      "gateway": "192.168.10.1"
+    }
+  },
+  "removeLinks": [],
+  "links": [
+    [
+      "PTB_TEST_PC1",
+      "FastEthernet0",
+      "PTB_TEST_SW1",
+      "FastEthernet0/1",
+      "straight"
+    ]
+  ],
+  "manualActions": [],
+  "sourceIssues": [
+    {
+      "severity": "warn",
+      "type": "link-endpoint-unresolved",
+      "link": 1,
+      "uuid": "{bcf08a9f-924e-5dc2-9d8b-7b5f714059ee}",
+      "fix": "inspect-cable-or-redraw-link"
+    },
+    {
+      "severity": "error",
+      "type": "terminal-link-missing",
+      "device": "PTB_TEST_PC1",
+      "port": "FastEthernet0",
+      "ip": "192.168.10.21",
+      "mask": "255.255.255.0",
+      "fix": "connect-terminal-port"
+    },
+    {
+      "severity": "warn",
+      "type": "terminal-ip-missing",
+      "device": "PTB_TEST_PC2",
+      "port": "FastEthernet0",
+      "ip": "0.0.0.0",
+      "mask": "0.0.0.0",
+      "fix": "configure-pc"
+    }
+  ],
+  "generatedBy": "ptbuilder suggest-from-intent",
+  "intent": {
+    "name": "ptb-test-intent",
+    "groups": [
+      "test_pcs"
+    ]
+  },
+  "groupSummaries": [
+    {
+      "group": "test_pcs",
+      "matched": 2,
+      "pcConfigs": 1,
+      "links": 1,
+      "subnet": "192.168.10.0/24",
+      "switch": "PTB_TEST_SW1"
+    }
+  ]
+}

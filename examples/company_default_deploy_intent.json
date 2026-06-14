@@ -1,0 +1,145 @@
+{
+  "name": "acme-company-intent",
+  "groups": {
+    "mkt": {
+      "match": {
+        "namePrefix": "ACME_MKT_PC"
+      },
+      "terminalOnly": true,
+      "terminalPort": "FastEthernet0",
+      "subnet": "10.10.10.0/24",
+      "gateway": "10.10.10.1",
+      "startHost": 11,
+      "vlan": 10,
+      "linkPolicy": {
+        "switch": "ACME_MKT_SW1",
+        "portRange": "FastEthernet0/1-23",
+        "linkType": "straight"
+      }
+    },
+    "hr": {
+      "match": {
+        "namePrefix": "ACME_HR_PC"
+      },
+      "terminalOnly": true,
+      "terminalPort": "FastEthernet0",
+      "subnet": "10.10.20.0/24",
+      "gateway": "10.10.20.1",
+      "startHost": 11,
+      "vlan": 20,
+      "linkPolicy": {
+        "switch": "ACME_HR_SW1",
+        "portRange": "FastEthernet0/1-23",
+        "linkType": "straight"
+      }
+    },
+    "biz": {
+      "match": {
+        "namePrefix": "ACME_BIZ_PC"
+      },
+      "terminalOnly": true,
+      "terminalPort": "FastEthernet0",
+      "subnet": "10.10.30.0/24",
+      "gateway": "10.10.30.1",
+      "startHost": 11,
+      "vlan": 30,
+      "linkPolicy": {
+        "switch": "ACME_BIZ_SW1",
+        "portRange": "FastEthernet0/1-23",
+        "linkType": "straight"
+      }
+    },
+    "fin": {
+      "match": {
+        "namePrefix": "ACME_FIN_PC"
+      },
+      "terminalOnly": true,
+      "terminalPort": "FastEthernet0",
+      "subnet": "10.10.40.0/24",
+      "gateway": "10.10.40.1",
+      "startHost": 11,
+      "vlan": 40,
+      "linkPolicy": {
+        "switch": "ACME_FIN_SW1",
+        "portRange": "FastEthernet0/1-23",
+        "linkType": "straight"
+      }
+    },
+    "eng": {
+      "match": {
+        "namePrefix": "ACME_ENG_PC"
+      },
+      "terminalOnly": true,
+      "terminalPort": "FastEthernet0",
+      "subnet": "10.10.50.0/24",
+      "gateway": "10.10.50.1",
+      "startHost": 11,
+      "vlan": 50,
+      "linkPolicy": {
+        "switch": "ACME_ENG_SW1",
+        "portRange": "FastEthernet0/1-23",
+        "linkType": "straight"
+      }
+    },
+    "wireless": {
+      "match": {
+        "namePrefix": "ACME_WIFI_CLIENT"
+      },
+      "terminalOnly": true,
+      "subnet": "10.10.60.0/24",
+      "gateway": "10.10.60.1",
+      "terminalPort": "FastEthernet0"
+    },
+    "vpn": {
+      "match": {
+        "namePrefix": "ACME_VPN_CLIENT"
+      },
+      "terminalOnly": true,
+      "subnet": "10.10.70.0/24",
+      "gateway": "10.10.70.1",
+      "terminalPort": "FastEthernet0"
+    }
+  },
+  "policies": [
+    {
+      "type": "deny-subnet",
+      "sourceGroup": "mkt",
+      "destination": "ACME_INTRANET"
+    },
+    {
+      "type": "deny-subnet",
+      "sourceGroup": "hr",
+      "destination": "ACME_INTRANET"
+    },
+    {
+      "type": "allow-subnet",
+      "sourceGroup": "biz",
+      "destination": "ACME_INTRANET"
+    },
+    {
+      "type": "deny-subnet",
+      "sourceGroup": "fin",
+      "destination": "ACME_INTRANET"
+    },
+    {
+      "type": "deny-subnet",
+      "sourceGroup": "eng",
+      "destination": "ACME_INTRANET"
+    },
+    {
+      "type": "deny-subnet",
+      "sourceGroup": "wireless",
+      "destination": "ACME_INTRANET"
+    },
+    {
+      "type": "allow-vpn",
+      "sourceGroup": "vpn",
+      "destination": "ACME_INTRANET",
+      "verify": "unverified"
+    }
+  ],
+  "metadata": {
+    "company": "ACME",
+    "prefix": "ACME"
+  }
+}

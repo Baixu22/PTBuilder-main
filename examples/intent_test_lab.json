@@ -1,0 +1,20 @@
+{
+  "name": "ptb-test-intent",
+  "groups": {
+    "test_pcs": {
+      "match": {
+        "namePrefix": "PTB_TEST_PC"
+      },
+      "terminalOnly": true,
+      "terminalPort": "FastEthernet0",
+      "subnet": "192.168.10.0/24",
+      "gateway": "192.168.10.1",
+      "startHost": 40,
+      "linkPolicy": {
+        "switch": "PTB_TEST_SW1",
+        "portRange": "FastEthernet0/1-24",
+        "linkType": "straight"
+      }
+    }
+  }
+}

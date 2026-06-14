@@ -1,0 +1,1247 @@
+{
+  "summary": {
+    "maxChildren": 120,
+    "packetTracerPids": [
+      14344,
+      28076
+    ],
+    "maxDepth": 3,
+    "controls": 76,
+    "windows": 2
+  },
+  "ok": true,
+  "schema": "ptbuilder.ui.inspect.v1",
+  "files": {},
+  "windows": [
+    {
+      "processId": 14344,
+      "className": "CWebView",
+      "enabled": true,
+      "offscreen": false,
+      "controlType": "Window",
+      "name": "Builder Code Editor",
+      "children": [
+        {
+          "processId": 14344,
+          "className": "",
+          "enabled": true,
+          "offscreen": false,
+          "controlType": "Custom",
+          "name": "Builder",
+          "children": [
+            {
+              "processId": 14344,
+              "className": "",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "Run",
+              "children": [],
+              "bounds": {
+                "y": 227,
+                "width": 45,
+                "height": 31,
+                "x": 227
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "Paste",
+              "children": [],
+              "bounds": {
+                "y": 227,
+                "width": 55,
+                "height": 31,
+                "x": 279
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "Copy",
+              "children": [],
+              "bounds": {
+                "y": 227,
+                "width": 53,
+                "height": 31,
+                "x": 341
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "Clear",
+              "children": [],
+              "bounds": {
+                "y": 227,
+                "width": 54,
+                "height": 31,
+                "x": 401
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "CheckBox",
+              "name": "CLI Bridge",
+              "children": [],
+              "bounds": {
+                "y": 235,
+                "width": 13,
+                "height": 13,
+                "x": 695
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Custom",
+              "name": "",
+              "children": [
+                {
+                  "processId": 14344,
+                  "className": "",
+                  "enabled": true,
+                  "offscreen": false,
+                  "controlType": "Text",
+                  "name": "Running task",
+                  "children": [],
+                  "bounds": {
+                    "y": 234,
+                    "width": 76,
+                    "height": 16,
+                    "x": 803
+                  },
+                  "automationId": ""
+                }
+              ],
+              "bounds": {
+                "y": 230,
+                "width": 98,
+                "height": 25,
+                "x": 792
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Custom",
+              "name": "",
+              "children": [
+                {
+                  "processId": 14344,
+                  "className": "",
+                  "enabled": true,
+                  "offscreen": false,
+                  "controlType": "Text",
+                  "name": "368 tasks",
+                  "children": [],
+                  "bounds": {
+                    "y": 234,
+                    "width": 54,
+                    "height": 16,
+                    "x": 908
+                  },
+                  "automationId": ""
+                }
+              ],
+              "bounds": {
+                "y": 230,
+                "width": 76,
+                "height": 25,
+                "x": 897
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Edit",
+              "name": "",
+              "children": [],
+              "bounds": {
+                "y": 279,
+                "width": 768,
+                "height": 307,
+                "x": 216
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Custom",
+              "name": "",
+              "children": [
+                {
+                  "processId": 14344,
+                  "className": "",
+                  "enabled": true,
+                  "offscreen": false,
+                  "controlType": "Text",
+                  "name": "{\n  \"task\": \"6cdc4714-db78-4701-8a7b-9302c67a6caf\",\n  \"state\": \"running\"\n}",
+                  "children": [],
+                  "bounds": {
+                    "y": 608,
+                    "width": 324,
+                    "height": 62,
+                    "x": 229
+                  },
+                  "automationId": ""
+                }
+              ],
+              "bounds": {
+                "y": 596,
+                "width": 768,
+                "height": 88,
+                "x": 216
+              },
+              "automationId": ""
+            }
+          ],
+          "bounds": {
+            "y": 200,
+            "width": 800,
+            "height": 500,
+            "x": 200
+          },
+          "automationId": ""
+        }
+      ],
+      "bounds": {
+        "y": 200,
+        "width": 800,
+        "height": 500,
+        "x": 200
+      },
+      "automationId": ""
+    },
+    {
+      "processId": 14344,
+      "className": "CAppWindow",
+      "enabled": true,
+      "offscreen": false,
+      "controlType": "Window",
+      "name": "Cisco Packet Tracer",
+      "children": [
+        {
+          "processId": 14344,
+          "className": "QWidget",
+          "enabled": true,
+          "offscreen": false,
+          "controlType": "Group",
+          "name": "",
+          "children": [
+            {
+              "processId": 14344,
+              "className": "QFrame",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Custom",
+              "name": "",
+              "children": [
+                {
+                  "processId": 14344,
+                  "className": "QPushButton",
+                  "enabled": true,
+                  "offscreen": false,
+                  "controlType": "CheckBox",
+                  "name": "逻辑模式",
+                  "children": [],
+                  "bounds": {
+                    "y": 118,
+                    "width": 101,
+                    "height": 34,
+                    "x": 0
+                  },
+                  "automationId": "CAppWindowBase.centralwidget.m_PLFrame.m_logicalSwitch"
+                },
+                {
+                  "processId": 14344,
+                  "className": "QPushButton",
+                  "enabled": true,
+                  "offscreen": false,
+                  "controlType": "CheckBox",
+                  "name": "物理模式",
+                  "children": [],
+                  "bounds": {
+                    "y": 118,
+                    "width": 98,
+                    "height": 33,
+                    "x": 103
+                  },
+                  "automationId": "CAppWindowBase.centralwidget.m_PLFrame.m_physicalSwitch"
+                },
+                {
+                  "processId": 14344,
+                  "className": "CLogicalToolbar",
+                  "enabled": true,
+                  "offscreen": false,
+                  "controlType": "Group",
+                  "name": "",
+                  "children": [],
+                  "bounds": {
+                    "y": 118,
+                    "width": 2357,
+                    "height": 34,
+                    "x": 203
+                  },
+                  "automationId": "CAppWindowBase.centralwidget.m_PLFrame.m_logicalToolbar"
+                }
+              ],
+              "bounds": {
+                "y": 118,
+                "width": 2560,
+                "height": 34,
+                "x": 0
+              },
+              "automationId": "CAppWindowBase.centralwidget.m_PLFrame"
+            },
+            {
+              "processId": 14344,
+              "className": "QFrame",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Custom",
+              "name": "",
+              "children": [
+                {
+                  "processId": 14344,
+                  "className": "CViewArea_Window",
+                  "enabled": true,
+                  "offscreen": false,
+                  "controlType": "Window",
+                  "name": "",
+                  "children": [],
+                  "bounds": {
+                    "y": 152,
+                    "width": 2560,
+                    "height": 1215,
+                    "x": 0
+                  },
+                  "automationId": "CAppWindowBase.centralwidget.m_pWorkSpaceWnd.m_pViewArea_Window"
+                }
+              ],
+              "bounds": {
+                "y": 152,
+                "width": 2560,
+                "height": 1215,
+                "x": 0
+              },
+              "automationId": "CAppWindowBase.centralwidget.m_pWorkSpaceWnd"
+            },
+            {
+              "processId": 14344,
+              "className": "QFrame",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Custom",
+              "name": "",
+              "children": [
+                {
+                  "processId": 14344,
+                  "className": "CRealtimeToolbar",
+                  "enabled": true,
+                  "offscreen": false,
+                  "controlType": "Group",
+                  "name": "",
+                  "children": [],
+                  "bounds": {
+                    "y": 1367,
+                    "width": 2402,
+                    "height": 34,
+                    "x": 0
+                  },
+                  "automationId": "CAppWindowBase.centralwidget.m_RSFrame.CRealtimeToolbar"
+                },
+                {
+                  "processId": 14344,
+                  "className": "QPushButton",
+                  "enabled": true,
+                  "offscreen": false,
+                  "controlType": "CheckBox",
+                  "name": "实时模式",
+                  "children": [],
+                  "bounds": {
+                    "y": 1367,
+                    "width": 78,
+                    "height": 34,
+                    "x": 2404
+                  },
+                  "automationId": "CAppWindowBase.centralwidget.m_RSFrame.m_realtimeSwitch"
+                },
+                {
+                  "processId": 14344,
+                  "className": "QPushButton",
+                  "enabled": true,
+                  "offscreen": false,
+                  "controlType": "CheckBox",
+                  "name": "仿真模式",
+                  "children": [],
+                  "bounds": {
+                    "y": 1367,
+                    "width": 76,
+                    "height": 33,
+                    "x": 2484
+                  },
+                  "automationId": "CAppWindowBase.centralwidget.m_RSFrame.m_simulationSwitch"
+                }
+              ],
+              "bounds": {
+                "y": 1367,
+                "width": 2560,
+                "height": 34,
+                "x": 0
+              },
+              "automationId": "CAppWindowBase.centralwidget.m_RSFrame"
+            },
+            {
+              "processId": 14344,
+              "className": "QFrame",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Custom",
+              "name": "",
+              "children": [
+                {
+                  "processId": 14344,
+                  "className": "QSplitter",
+                  "enabled": true,
+                  "offscreen": false,
+                  "controlType": "Custom",
+                  "name": "",
+                  "children": [],
+                  "bounds": {
+                    "y": 1401,
+                    "width": 2560,
+                    "height": 127,
+                    "x": 0
+                  },
+                  "automationId": "CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter"
+                }
+              ],
+              "bounds": {
+                "y": 1401,
+                "width": 2560,
+                "height": 127,
+                "x": 0
+              },
+              "automationId": "CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame"
+            }
+          ],
+          "bounds": {
+            "y": 118,
+            "width": 2560,
+            "height": 1410,
+            "x": 0
+          },
+          "automationId": "CAppWindowBase.centralwidget"
+        },
+        {
+          "processId": 14344,
+          "className": "QMenuBar",
+          "enabled": true,
+          "offscreen": false,
+          "controlType": "MenuBar",
+          "name": "",
+          "children": [
+            {
+              "processId": 14344,
+              "className": "QAction",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "MenuItem",
+              "name": "文件(F)",
+              "children": [],
+              "bounds": {
+                "y": 34,
+                "width": 68,
+                "height": 23,
+                "x": 0
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QAction",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "MenuItem",
+              "name": "编辑(E)",
+              "children": [],
+              "bounds": {
+                "y": 34,
+                "width": 69,
+                "height": 23,
+                "x": 68
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QAction",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "MenuItem",
+              "name": "选项(O)",
+              "children": [],
+              "bounds": {
+                "y": 34,
+                "width": 70,
+                "height": 23,
+                "x": 137
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QAction",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "MenuItem",
+              "name": "视图(V)",
+              "children": [],
+              "bounds": {
+                "y": 34,
+                "width": 69,
+                "height": 23,
+                "x": 207
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QAction",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "MenuItem",
+              "name": "工具(T)",
+              "children": [],
+              "bounds": {
+                "y": 34,
+                "width": 67,
+                "height": 23,
+                "x": 276
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QAction",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "MenuItem",
+              "name": "扩展(x)",
+              "children": [],
+              "bounds": {
+                "y": 34,
+                "width": 65,
+                "height": 23,
+                "x": 343
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QAction",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "MenuItem",
+              "name": "Window",
+              "children": [],
+              "bounds": {
+                "y": 34,
+                "width": 72,
+                "height": 23,
+                "x": 408
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QAction",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "MenuItem",
+              "name": "帮助(H)  汉化：湖科大教书匠  Email：jgao1@hnust.edu.cn",
+              "children": [],
+              "bounds": {
+                "y": 34,
+                "width": 426,
+                "height": 23,
+                "x": 480
+              },
+              "automationId": ""
+            }
+          ],
+          "bounds": {
+            "y": 34,
+            "width": 2560,
+            "height": 24,
+            "x": 0
+          },
+          "automationId": "CAppWindowBase.m_pMenubar"
+        },
+        {
+          "processId": 14344,
+          "className": "QToolBar",
+          "enabled": true,
+          "offscreen": false,
+          "controlType": "ToolBar",
+          "name": "菜单工具栏",
+          "children": [
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "新建",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 2
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "打开",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 29
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "保存",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 56
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "打印",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 83
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "网络信息",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 110
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "用户配置文件",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 137
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "活动向导",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 164
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolBarSeparator",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Group",
+              "name": "",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 9,
+                "height": 26,
+                "x": 191
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "复制",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 200
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "粘贴",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 227
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "撤销",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 254
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "重做",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 281
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolBarSeparator",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Group",
+              "name": "",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 9,
+                "height": 26,
+                "x": 308
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "放大",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 317
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "缩放复位",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 344
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "缩小",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 371
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "View the entire workspace.",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 398
+              },
+              "automationId": "CAppWindowBase.m_pToolBar.Show Viewport"
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "View the workspace as a tabular list of devices and links.",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 425
+              },
+              "automationId": "CAppWindowBase.m_pToolBar.Show Workspace List"
+            },
+            {
+              "processId": 14344,
+              "className": "QToolBarSeparator",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Group",
+              "name": "",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 9,
+                "height": 26,
+                "x": 452
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "View all commands entered in this file.",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 461
+              },
+              "automationId": "CAppWindowBase.m_pToolBar.View Command Log"
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "自定义设备对话框",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 488
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "群集关联对话框",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 515
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QLabel",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Text",
+              "name": "",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 1989,
+                "height": 26,
+                "x": 542
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Button",
+              "name": "目录",
+              "children": [],
+              "bounds": {
+                "y": 60,
+                "width": 27,
+                "height": 26,
+                "x": 2531
+              },
+              "automationId": ""
+            }
+          ],
+          "bounds": {
+            "y": 58,
+            "width": 2560,
+            "height": 30,
+            "x": 0
+          },
+          "automationId": "CAppWindowBase.m_pToolBar"
+        },
+        {
+          "processId": 14344,
+          "className": "QToolBar",
+          "enabled": true,
+          "offscreen": false,
+          "controlType": "ToolBar",
+          "name": "m_pPlToolBar",
+          "children": [
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "CheckBox",
+              "name": "选择 (Esc)",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 25,
+                "height": 25,
+                "x": 2
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "CheckBox",
+              "name": "检查 (I)",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 27,
+                "height": 26,
+                "x": 27
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "CheckBox",
+              "name": "删除 (Del)",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 27,
+                "height": 26,
+                "x": 54
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "CheckBox",
+              "name": "调整大小 (Alt+R)",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 27,
+                "height": 26,
+                "x": 81
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolBarSeparator",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Group",
+              "name": "",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 9,
+                "height": 26,
+                "x": 108
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "CheckBox",
+              "name": "放置注释 (N)",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 27,
+                "height": 26,
+                "x": 117
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "CheckBox",
+              "name": "画线 (L)",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 27,
+                "height": 26,
+                "x": 144
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "CheckBox",
+              "name": "画矩形 (R)",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 27,
+                "height": 26,
+                "x": 171
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "CheckBox",
+              "name": "画椭圆 (E)",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 27,
+                "height": 26,
+                "x": 198
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "CheckBox",
+              "name": "画自由形状 (F)",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 27,
+                "height": 26,
+                "x": 225
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolBarSeparator",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "Group",
+              "name": "",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 9,
+                "height": 26,
+                "x": 252
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "CheckBox",
+              "name": "添加简单的PDU (P)",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 27,
+                "height": 26,
+                "x": 261
+              },
+              "automationId": ""
+            },
+            {
+              "processId": 14344,
+              "className": "QToolButton",
+              "enabled": true,
+              "offscreen": false,
+              "controlType": "CheckBox",
+              "name": "添加复杂的PDU (C)",
+              "children": [],
+              "bounds": {
+                "y": 90,
+                "width": 27,
+                "height": 26,
+                "x": 288
+              },
+              "automationId": ""
+            }
+          ],
+          "bounds": {
+            "y": 88,
+            "width": 2560,
+            "height": 30,
+            "x": 0
+          },
+          "automationId": "CAppWindowBase.m_pPlToolBar"
+        }
+      ],
+      "bounds": {
+        "y": 34,
+        "width": 2560,
+        "height": 1494,
+        "x": 0
+      },
+      "automationId": "CAppWindowBase"
+    }
+  ]
+}

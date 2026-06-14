@@ -1,0 +1,1778 @@
+{
+  "devices": [
+    {
+      "name": "ACME_CORE_SW1",
+      "model": "2960-24TT",
+      "x": 900,
+      "y": 340
+    },
+    {
+      "name": "ACME_MKT_SW1",
+      "model": "2960-24TT",
+      "x": 270,
+      "y": 470
+    },
+    {
+      "name": "ACME_MKT_PC01",
+      "model": "PC-PT",
+      "x": 80,
+      "y": 620
+    },
+    {
+      "name": "ACME_MKT_PC02",
+      "model": "PC-PT",
+      "x": 175,
+      "y": 620
+    },
+    {
+      "name": "ACME_MKT_PC03",
+      "model": "PC-PT",
+      "x": 270,
+      "y": 620
+    },
+    {
+      "name": "ACME_MKT_PC04",
+      "model": "PC-PT",
+      "x": 365,
+      "y": 620
+    },
+    {
+      "name": "ACME_MKT_PC05",
+      "model": "PC-PT",
+      "x": 460,
+      "y": 620
+    },
+    {
+      "name": "ACME_MKT_PC06",
+      "model": "PC-PT",
+      "x": 80,
+      "y": 705
+    },
+    {
+      "name": "ACME_MKT_PC07",
+      "model": "PC-PT",
+      "x": 175,
+      "y": 705
+    },
+    {
+      "name": "ACME_MKT_PC08",
+      "model": "PC-PT",
+      "x": 270,
+      "y": 705
+    },
+    {
+      "name": "ACME_MKT_PC09",
+      "model": "PC-PT",
+      "x": 365,
+      "y": 705
+    },
+    {
+      "name": "ACME_MKT_PC10",
+      "model": "PC-PT",
+      "x": 460,
+      "y": 705
+    },
+    {
+      "name": "ACME_MKT_PC11",
+      "model": "PC-PT",
+      "x": 80,
+      "y": 790
+    },
+    {
+      "name": "ACME_MKT_PC12",
+      "model": "PC-PT",
+      "x": 175,
+      "y": 790
+    },
+    {
+      "name": "ACME_MKT_PC13",
+      "model": "PC-PT",
+      "x": 270,
+      "y": 790
+    },
+    {
+      "name": "ACME_MKT_PC14",
+      "model": "PC-PT",
+      "x": 365,
+      "y": 790
+    },
+    {
+      "name": "ACME_MKT_PC15",
+      "model": "PC-PT",
+      "x": 460,
+      "y": 790
+    },
+    {
+      "name": "ACME_MKT_PC16",
+      "model": "PC-PT",
+      "x": 80,
+      "y": 875
+    },
+    {
+      "name": "ACME_MKT_PC17",
+      "model": "PC-PT",
+      "x": 175,
+      "y": 875
+    },
+    {
+      "name": "ACME_MKT_PC18",
+      "model": "PC-PT",
+      "x": 270,
+      "y": 875
+    },
+    {
+      "name": "ACME_MKT_PC19",
+      "model": "PC-PT",
+      "x": 365,
+      "y": 875
+    },
+    {
+      "name": "ACME_MKT_PC20",
+      "model": "PC-PT",
+      "x": 460,
+      "y": 875
+    },
+    {
+      "name": "ACME_HR_SW1",
+      "model": "2960-24TT",
+      "x": 890,
+      "y": 470
+    },
+    {
+      "name": "ACME_HR_PC01",
+      "model": "PC-PT",
+      "x": 700,
+      "y": 620
+    },
+    {
+      "name": "ACME_HR_PC02",
+      "model": "PC-PT",
+      "x": 795,
+      "y": 620
+    },
+    {
+      "name": "ACME_HR_PC03",
+      "model": "PC-PT",
+      "x": 890,
+      "y": 620
+    },
+    {
+      "name": "ACME_HR_PC04",
+      "model": "PC-PT",
+      "x": 985,
+      "y": 620
+    },
+    {
+      "name": "ACME_HR_PC05",
+      "model": "PC-PT",
+      "x": 1080,
+      "y": 620
+    },
+    {
+      "name": "ACME_HR_PC06",
+      "model": "PC-PT",
+      "x": 700,
+      "y": 705
+    },
+    {
+      "name": "ACME_HR_PC07",
+      "model": "PC-PT",
+      "x": 795,
+      "y": 705
+    },
+    {
+      "name": "ACME_HR_PC08",
+      "model": "PC-PT",
+      "x": 890,
+      "y": 705
+    },
+    {
+      "name": "ACME_HR_PC09",
+      "model": "PC-PT",
+      "x": 985,
+      "y": 705
+    },
+    {
+      "name": "ACME_HR_PC10",
+      "model": "PC-PT",
+      "x": 1080,
+      "y": 705
+    },
+    {
+      "name": "ACME_HR_PC11",
+      "model": "PC-PT",
+      "x": 700,
+      "y": 790
+    },
+    {
+      "name": "ACME_HR_PC12",
+      "model": "PC-PT",
+      "x": 795,
+      "y": 790
+    },
+    {
+      "name": "ACME_BIZ_SW1",
+      "model": "2960-24TT",
+      "x": 1510,
+      "y": 470
+    },
+    {
+      "name": "ACME_BIZ_PC01",
+      "model": "PC-PT",
+      "x": 1320,
+      "y": 620
+    },
+    {
+      "name": "ACME_BIZ_PC02",
+      "model": "PC-PT",
+      "x": 1415,
+      "y": 620
+    },
+    {
+      "name": "ACME_BIZ_PC03",
+      "model": "PC-PT",
+      "x": 1510,
+      "y": 620
+    },
+    {
+      "name": "ACME_BIZ_PC04",
+      "model": "PC-PT",
+      "x": 1605,
+      "y": 620
+    },
+    {
+      "name": "ACME_BIZ_PC05",
+      "model": "PC-PT",
+      "x": 1700,
+      "y": 620
+    },
+    {
+      "name": "ACME_BIZ_PC06",
+      "model": "PC-PT",
+      "x": 1320,
+      "y": 705
+    },
+    {
+      "name": "ACME_BIZ_PC07",
+      "model": "PC-PT",
+      "x": 1415,
+      "y": 705
+    },
+    {
+      "name": "ACME_BIZ_PC08",
+      "model": "PC-PT",
+      "x": 1510,
+      "y": 705
+    },
+    {
+      "name": "ACME_BIZ_PC09",
+      "model": "PC-PT",
+      "x": 1605,
+      "y": 705
+    },
+    {
+      "name": "ACME_BIZ_PC10",
+      "model": "PC-PT",
+      "x": 1700,
+      "y": 705
+    },
+    {
+      "name": "ACME_BIZ_PC11",
+      "model": "PC-PT",
+      "x": 1320,
+      "y": 790
+    },
+    {
+      "name": "ACME_BIZ_PC12",
+      "model": "PC-PT",
+      "x": 1415,
+      "y": 790
+    },
+    {
+      "name": "ACME_BIZ_PC13",
+      "model": "PC-PT",
+      "x": 1510,
+      "y": 790
+    },
+    {
+      "name": "ACME_BIZ_PC14",
+      "model": "PC-PT",
+      "x": 1605,
+      "y": 790
+    },
+    {
+      "name": "ACME_BIZ_PC15",
+      "model": "PC-PT",
+      "x": 1700,
+      "y": 790
+    },
+    {
+      "name": "ACME_BIZ_PC16",
+      "model": "PC-PT",
+      "x": 1320,
+      "y": 875
+    },
+    {
+      "name": "ACME_BIZ_PC17",
+      "model": "PC-PT",
+      "x": 1415,
+      "y": 875
+    },
+    {
+      "name": "ACME_BIZ_PC18",
+      "model": "PC-PT",
+      "x": 1510,
+      "y": 875
+    },
+    {
+      "name": "ACME_BIZ_PC19",
+      "model": "PC-PT",
+      "x": 1605,
+      "y": 875
+    },
+    {
+      "name": "ACME_BIZ_PC20",
+      "model": "PC-PT",
+      "x": 1700,
+      "y": 875
+    },
+    {
+      "name": "ACME_FIN_SW1",
+      "model": "2960-24TT",
+      "x": 270,
+      "y": 1030
+    },
+    {
+      "name": "ACME_FIN_PC01",
+      "model": "PC-PT",
+      "x": 80,
+      "y": 1180
+    },
+    {
+      "name": "ACME_FIN_PC02",
+      "model": "PC-PT",
+      "x": 175,
+      "y": 1180
+    },
+    {
+      "name": "ACME_FIN_PC03",
+      "model": "PC-PT",
+      "x": 270,
+      "y": 1180
+    },
+    {
+      "name": "ACME_FIN_PC04",
+      "model": "PC-PT",
+      "x": 365,
+      "y": 1180
+    },
+    {
+      "name": "ACME_FIN_PC05",
+      "model": "PC-PT",
+      "x": 460,
+      "y": 1180
+    },
+    {
+      "name": "ACME_FIN_PC06",
+      "model": "PC-PT",
+      "x": 80,
+      "y": 1265
+    },
+    {
+      "name": "ACME_FIN_PC07",
+      "model": "PC-PT",
+      "x": 175,
+      "y": 1265
+    },
+    {
+      "name": "ACME_FIN_PC08",
+      "model": "PC-PT",
+      "x": 270,
+      "y": 1265
+    },
+    {
+      "name": "ACME_FIN_PC09",
+      "model": "PC-PT",
+      "x": 365,
+      "y": 1265
+    },
+    {
+      "name": "ACME_FIN_PC10",
+      "model": "PC-PT",
+      "x": 460,
+      "y": 1265
+    },
+    {
+      "name": "ACME_ENG_SW1",
+      "model": "2960-24TT",
+      "x": 890,
+      "y": 1030
+    },
+    {
+      "name": "ACME_ENG_PC01",
+      "model": "PC-PT",
+      "x": 700,
+      "y": 1180
+    },
+    {
+      "name": "ACME_ENG_PC02",
+      "model": "PC-PT",
+      "x": 795,
+      "y": 1180
+    },
+    {
+      "name": "ACME_ENG_PC03",
+      "model": "PC-PT",
+      "x": 890,
+      "y": 1180
+    },
+    {
+      "name": "ACME_ENG_PC04",
+      "model": "PC-PT",
+      "x": 985,
+      "y": 1180
+    },
+    {
+      "name": "ACME_ENG_PC05",
+      "model": "PC-PT",
+      "x": 1080,
+      "y": 1180
+    },
+    {
+      "name": "ACME_ENG_PC06",
+      "model": "PC-PT",
+      "x": 700,
+      "y": 1265
+    },
+    {
+      "name": "ACME_ENG_PC07",
+      "model": "PC-PT",
+      "x": 795,
+      "y": 1265
+    },
+    {
+      "name": "ACME_ENG_PC08",
+      "model": "PC-PT",
+      "x": 890,
+      "y": 1265
+    },
+    {
+      "name": "ACME_ENG_PC09",
+      "model": "PC-PT",
+      "x": 985,
+      "y": 1265
+    },
+    {
+      "name": "ACME_ENG_PC10",
+      "model": "PC-PT",
+      "x": 1080,
+      "y": 1265
+    },
+    {
+      "name": "ACME_ENG_PC11",
+      "model": "PC-PT",
+      "x": 700,
+      "y": 1350
+    },
+    {
+      "name": "ACME_ENG_PC12",
+      "model": "PC-PT",
+      "x": 795,
+      "y": 1350
+    },
+    {
+      "name": "ACME_ENG_PC13",
+      "model": "PC-PT",
+      "x": 890,
+      "y": 1350
+    },
+    {
+      "name": "ACME_ENG_PC14",
+      "model": "PC-PT",
+      "x": 985,
+      "y": 1350
+    },
+    {
+      "name": "ACME_ENG_PC15",
+      "model": "PC-PT",
+      "x": 1080,
+      "y": 1350
+    },
+    {
+      "name": "ACME_ENG_PC16",
+      "model": "PC-PT",
+      "x": 700,
+      "y": 1435
+    },
+    {
+      "name": "ACME_ENG_PC17",
+      "model": "PC-PT",
+      "x": 795,
+      "y": 1435
+    },
+    {
+      "name": "ACME_ENG_PC18",
+      "model": "PC-PT",
+      "x": 890,
+      "y": 1435
+    },
+    {
+      "name": "ACME_ENG_PC19",
+      "model": "PC-PT",
+      "x": 985,
+      "y": 1435
+    },
+    {
+      "name": "ACME_ENG_PC20",
+      "model": "PC-PT",
+      "x": 1080,
+      "y": 1435
+    },
+    {
+      "name": "ACME_INTRANET",
+      "model": "Server-PT",
+      "x": 700,
+      "y": 160
+    },
+    {
+      "name": "ACME_FTP",
+      "model": "Server-PT",
+      "x": 900,
+      "y": 160
+    },
+    {
+      "name": "ACME_GUEST_AP1",
+      "model": "AccessPoint-PT-AC",
+      "x": 1320,
+      "y": 1180
+    },
+    {
+      "name": "ACME_WIFI_CLIENT01",
+      "model": "Laptop-PT",
+      "x": 1450,
+      "y": 1280
+    },
+    {
+      "name": "ACME_WIFI_CLIENT02",
+      "model": "Laptop-PT",
+      "x": 1555,
+      "y": 1280
+    },
+    {
+      "name": "ACME_WIFI_CLIENT03",
+      "model": "Laptop-PT",
+      "x": 1660,
+      "y": 1280
+    },
+    {
+      "name": "ACME_WIFI_CLIENT04",
+      "model": "Laptop-PT",
+      "x": 1450,
+      "y": 1370
+    },
+    {
+      "name": "ACME_VPN_CLIENT01",
+      "model": "Laptop-PT",
+      "x": 1320,
+      "y": 210
+    },
+    {
+      "name": "ACME_VPN_CLIENT02",
+      "model": "Laptop-PT",
+      "x": 1430,
+      "y": 210
+    }
+  ],
+  "removeDevices": [],
+  "pcConfigs": {
+    "ACME_MKT_PC01": {
+      "ip": "10.10.10.11",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC02": {
+      "ip": "10.10.10.12",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC03": {
+      "ip": "10.10.10.13",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC04": {
+      "ip": "10.10.10.14",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC05": {
+      "ip": "10.10.10.15",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC06": {
+      "ip": "10.10.10.16",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC07": {
+      "ip": "10.10.10.17",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC08": {
+      "ip": "10.10.10.18",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC09": {
+      "ip": "10.10.10.19",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC10": {
+      "ip": "10.10.10.20",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC11": {
+      "ip": "10.10.10.21",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC12": {
+      "ip": "10.10.10.22",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC13": {
+      "ip": "10.10.10.23",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC14": {
+      "ip": "10.10.10.24",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC15": {
+      "ip": "10.10.10.25",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC16": {
+      "ip": "10.10.10.26",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC17": {
+      "ip": "10.10.10.27",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC18": {
+      "ip": "10.10.10.28",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC19": {
+      "ip": "10.10.10.29",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_MKT_PC20": {
+      "ip": "10.10.10.30",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.10.1"
+    },
+    "ACME_HR_PC01": {
+      "ip": "10.10.20.11",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.20.1"
+    },
+    "ACME_HR_PC02": {
+      "ip": "10.10.20.12",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.20.1"
+    },
+    "ACME_HR_PC03": {
+      "ip": "10.10.20.13",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.20.1"
+    },
+    "ACME_HR_PC04": {
+      "ip": "10.10.20.14",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.20.1"
+    },
+    "ACME_HR_PC05": {
+      "ip": "10.10.20.15",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.20.1"
+    },
+    "ACME_HR_PC06": {
+      "ip": "10.10.20.16",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.20.1"
+    },
+    "ACME_HR_PC07": {
+      "ip": "10.10.20.17",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.20.1"
+    },
+    "ACME_HR_PC08": {
+      "ip": "10.10.20.18",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.20.1"
+    },
+    "ACME_HR_PC09": {
+      "ip": "10.10.20.19",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.20.1"
+    },
+    "ACME_HR_PC10": {
+      "ip": "10.10.20.20",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.20.1"
+    },
+    "ACME_HR_PC11": {
+      "ip": "10.10.20.21",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.20.1"
+    },
+    "ACME_HR_PC12": {
+      "ip": "10.10.20.22",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.20.1"
+    },
+    "ACME_BIZ_PC01": {
+      "ip": "10.10.30.11",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC02": {
+      "ip": "10.10.30.12",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC03": {
+      "ip": "10.10.30.13",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC04": {
+      "ip": "10.10.30.14",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC05": {
+      "ip": "10.10.30.15",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC06": {
+      "ip": "10.10.30.16",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC07": {
+      "ip": "10.10.30.17",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC08": {
+      "ip": "10.10.30.18",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC09": {
+      "ip": "10.10.30.19",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC10": {
+      "ip": "10.10.30.20",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC11": {
+      "ip": "10.10.30.21",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC12": {
+      "ip": "10.10.30.22",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC13": {
+      "ip": "10.10.30.23",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC14": {
+      "ip": "10.10.30.24",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC15": {
+      "ip": "10.10.30.25",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC16": {
+      "ip": "10.10.30.26",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC17": {
+      "ip": "10.10.30.27",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC18": {
+      "ip": "10.10.30.28",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC19": {
+      "ip": "10.10.30.29",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_BIZ_PC20": {
+      "ip": "10.10.30.30",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_FIN_PC01": {
+      "ip": "10.10.40.11",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.40.1"
+    },
+    "ACME_FIN_PC02": {
+      "ip": "10.10.40.12",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.40.1"
+    },
+    "ACME_FIN_PC03": {
+      "ip": "10.10.40.13",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.40.1"
+    },
+    "ACME_FIN_PC04": {
+      "ip": "10.10.40.14",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.40.1"
+    },
+    "ACME_FIN_PC05": {
+      "ip": "10.10.40.15",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.40.1"
+    },
+    "ACME_FIN_PC06": {
+      "ip": "10.10.40.16",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.40.1"
+    },
+    "ACME_FIN_PC07": {
+      "ip": "10.10.40.17",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.40.1"
+    },
+    "ACME_FIN_PC08": {
+      "ip": "10.10.40.18",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.40.1"
+    },
+    "ACME_FIN_PC09": {
+      "ip": "10.10.40.19",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.40.1"
+    },
+    "ACME_FIN_PC10": {
+      "ip": "10.10.40.20",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.40.1"
+    },
+    "ACME_ENG_PC01": {
+      "ip": "10.10.50.11",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC02": {
+      "ip": "10.10.50.12",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC03": {
+      "ip": "10.10.50.13",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC04": {
+      "ip": "10.10.50.14",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC05": {
+      "ip": "10.10.50.15",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC06": {
+      "ip": "10.10.50.16",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC07": {
+      "ip": "10.10.50.17",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC08": {
+      "ip": "10.10.50.18",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC09": {
+      "ip": "10.10.50.19",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC10": {
+      "ip": "10.10.50.20",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC11": {
+      "ip": "10.10.50.21",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC12": {
+      "ip": "10.10.50.22",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC13": {
+      "ip": "10.10.50.23",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC14": {
+      "ip": "10.10.50.24",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC15": {
+      "ip": "10.10.50.25",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC16": {
+      "ip": "10.10.50.26",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC17": {
+      "ip": "10.10.50.27",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC18": {
+      "ip": "10.10.50.28",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC19": {
+      "ip": "10.10.50.29",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_ENG_PC20": {
+      "ip": "10.10.50.30",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.50.1"
+    },
+    "ACME_INTRANET": {
+      "ip": "10.10.30.100",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_FTP": {
+      "ip": "10.10.30.110",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.30.1"
+    },
+    "ACME_WIFI_CLIENT01": {
+      "ip": "10.10.60.20",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.60.1"
+    },
+    "ACME_WIFI_CLIENT02": {
+      "ip": "10.10.60.21",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.60.1"
+    },
+    "ACME_WIFI_CLIENT03": {
+      "ip": "10.10.60.22",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.60.1"
+    },
+    "ACME_WIFI_CLIENT04": {
+      "ip": "10.10.60.23",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.60.1"
+    },
+    "ACME_VPN_CLIENT01": {
+      "ip": "10.10.70.20",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.70.1"
+    },
+    "ACME_VPN_CLIENT02": {
+      "ip": "10.10.70.21",
+      "mask": "255.255.255.0",
+      "gateway": "10.10.70.1"
+    }
+  },
+  "iosConfigs": {
+    "ACME_MKT_SW1": "enable\nconfigure terminal\nhostname ACME_MKT_SW1\nvlan 10\nname MKT\nexit\ninterface FastEthernet0/1\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/2\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/3\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/4\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/5\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/6\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/7\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/8\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/9\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/10\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/11\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/12\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/13\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/14\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/15\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/16\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/17\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/18\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/19\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/20\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/24\nswitchport mode access\nswitchport access vlan 10\nexit\nend",
+    "ACME_HR_SW1": "enable\nconfigure terminal\nhostname ACME_HR_SW1\nvlan 20\nname HR\nexit\ninterface FastEthernet0/1\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/2\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/3\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/4\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/5\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/6\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/7\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/8\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/9\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/10\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/11\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/12\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/24\nswitchport mode access\nswitchport access vlan 20\nexit\nend",
+    "ACME_BIZ_SW1": "enable\nconfigure terminal\nhostname ACME_BIZ_SW1\nvlan 30\nname BIZ\nexit\ninterface FastEthernet0/1\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/2\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/3\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/4\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/5\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/6\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/7\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/8\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/9\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/10\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/11\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/12\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/13\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/14\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/15\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/16\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/17\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/18\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/19\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/20\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/24\nswitchport mode access\nswitchport access vlan 30\nexit\nend",
+    "ACME_FIN_SW1": "enable\nconfigure terminal\nhostname ACME_FIN_SW1\nvlan 40\nname FIN\nexit\ninterface FastEthernet0/1\nswitchport mode access\nswitchport access vlan 40\nexit\ninterface FastEthernet0/2\nswitchport mode access\nswitchport access vlan 40\nexit\ninterface FastEthernet0/3\nswitchport mode access\nswitchport access vlan 40\nexit\ninterface FastEthernet0/4\nswitchport mode access\nswitchport access vlan 40\nexit\ninterface FastEthernet0/5\nswitchport mode access\nswitchport access vlan 40\nexit\ninterface FastEthernet0/6\nswitchport mode access\nswitchport access vlan 40\nexit\ninterface FastEthernet0/7\nswitchport mode access\nswitchport access vlan 40\nexit\ninterface FastEthernet0/8\nswitchport mode access\nswitchport access vlan 40\nexit\ninterface FastEthernet0/9\nswitchport mode access\nswitchport access vlan 40\nexit\ninterface FastEthernet0/10\nswitchport mode access\nswitchport access vlan 40\nexit\ninterface FastEthernet0/24\nswitchport mode access\nswitchport access vlan 40\nexit\nend",
+    "ACME_ENG_SW1": "enable\nconfigure terminal\nhostname ACME_ENG_SW1\nvlan 50\nname ENG\nexit\ninterface FastEthernet0/1\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/2\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/3\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/4\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/5\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/6\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/7\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/8\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/9\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/10\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/11\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/12\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/13\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/14\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/15\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/16\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/17\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/18\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/19\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/20\nswitchport mode access\nswitchport access vlan 50\nexit\ninterface FastEthernet0/24\nswitchport mode access\nswitchport access vlan 50\nexit\nend",
+    "ACME_CORE_SW1": "enable\nconfigure terminal\nhostname ACME_CORE_SW1\nvlan 10\nname MKT\nexit\nvlan 20\nname HR\nexit\nvlan 30\nname BIZ\nexit\nvlan 40\nname FIN\nexit\nvlan 50\nname ENG\nexit\ninterface FastEthernet0/1\nswitchport mode access\nswitchport access vlan 10\nexit\ninterface FastEthernet0/2\nswitchport mode access\nswitchport access vlan 20\nexit\ninterface FastEthernet0/3\nswitchport mode access\nswitchport access vlan 30\nexit\ninterface FastEthernet0/4\nswitchport mode access\nswitchport access vlan 40\nexit\ninterface FastEthernet0/5\nswitchport mode access\nswitchport access vlan 50\nexit\nend"
+  },
+  "removeLinks": [],
+  "links": [
+    [
+      "ACME_MKT_SW1",
+      "FastEthernet0/24",
+      "ACME_CORE_SW1",
+      "FastEthernet0/1",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC01",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/1",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC02",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/2",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC03",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/3",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC04",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/4",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC05",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/5",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC06",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/6",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC07",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/7",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC08",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/8",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC09",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/9",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC10",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/10",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC11",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/11",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC12",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/12",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC13",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/13",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC14",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/14",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC15",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/15",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC16",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/16",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC17",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/17",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC18",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/18",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC19",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/19",
+      "straight"
+    ],
+    [
+      "ACME_MKT_PC20",
+      "FastEthernet0",
+      "ACME_MKT_SW1",
+      "FastEthernet0/20",
+      "straight"
+    ],
+    [
+      "ACME_HR_SW1",
+      "FastEthernet0/24",
+      "ACME_CORE_SW1",
+      "FastEthernet0/2",
+      "straight"
+    ],
+    [
+      "ACME_HR_PC01",
+      "FastEthernet0",
+      "ACME_HR_SW1",
+      "FastEthernet0/1",
+      "straight"
+    ],
+    [
+      "ACME_HR_PC02",
+      "FastEthernet0",
+      "ACME_HR_SW1",
+      "FastEthernet0/2",
+      "straight"
+    ],
+    [
+      "ACME_HR_PC03",
+      "FastEthernet0",
+      "ACME_HR_SW1",
+      "FastEthernet0/3",
+      "straight"
+    ],
+    [
+      "ACME_HR_PC04",
+      "FastEthernet0",
+      "ACME_HR_SW1",
+      "FastEthernet0/4",
+      "straight"
+    ],
+    [
+      "ACME_HR_PC05",
+      "FastEthernet0",
+      "ACME_HR_SW1",
+      "FastEthernet0/5",
+      "straight"
+    ],
+    [
+      "ACME_HR_PC06",
+      "FastEthernet0",
+      "ACME_HR_SW1",
+      "FastEthernet0/6",
+      "straight"
+    ],
+    [
+      "ACME_HR_PC07",
+      "FastEthernet0",
+      "ACME_HR_SW1",
+      "FastEthernet0/7",
+      "straight"
+    ],
+    [
+      "ACME_HR_PC08",
+      "FastEthernet0",
+      "ACME_HR_SW1",
+      "FastEthernet0/8",
+      "straight"
+    ],
+    [
+      "ACME_HR_PC09",
+      "FastEthernet0",
+      "ACME_HR_SW1",
+      "FastEthernet0/9",
+      "straight"
+    ],
+    [
+      "ACME_HR_PC10",
+      "FastEthernet0",
+      "ACME_HR_SW1",
+      "FastEthernet0/10",
+      "straight"
+    ],
+    [
+      "ACME_HR_PC11",
+      "FastEthernet0",
+      "ACME_HR_SW1",
+      "FastEthernet0/11",
+      "straight"
+    ],
+    [
+      "ACME_HR_PC12",
+      "FastEthernet0",
+      "ACME_HR_SW1",
+      "FastEthernet0/12",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_SW1",
+      "FastEthernet0/24",
+      "ACME_CORE_SW1",
+      "FastEthernet0/3",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC01",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/1",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC02",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/2",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC03",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/3",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC04",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/4",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC05",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/5",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC06",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/6",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC07",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/7",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC08",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/8",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC09",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/9",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC10",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/10",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC11",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/11",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC12",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/12",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC13",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/13",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC14",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/14",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC15",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/15",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC16",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/16",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC17",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/17",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC18",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/18",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC19",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/19",
+      "straight"
+    ],
+    [
+      "ACME_BIZ_PC20",
+      "FastEthernet0",
+      "ACME_BIZ_SW1",
+      "FastEthernet0/20",
+      "straight"
+    ],
+    [
+      "ACME_FIN_SW1",
+      "FastEthernet0/24",
+      "ACME_CORE_SW1",
+      "FastEthernet0/4",
+      "straight"
+    ],
+    [
+      "ACME_FIN_PC01",
+      "FastEthernet0",
+      "ACME_FIN_SW1",
+      "FastEthernet0/1",
+      "straight"
+    ],
+    [
+      "ACME_FIN_PC02",
+      "FastEthernet0",
+      "ACME_FIN_SW1",
+      "FastEthernet0/2",
+      "straight"
+    ],
+    [
+      "ACME_FIN_PC03",
+      "FastEthernet0",
+      "ACME_FIN_SW1",
+      "FastEthernet0/3",
+      "straight"
+    ],
+    [
+      "ACME_FIN_PC04",
+      "FastEthernet0",
+      "ACME_FIN_SW1",
+      "FastEthernet0/4",
+      "straight"
+    ],
+    [
+      "ACME_FIN_PC05",
+      "FastEthernet0",
+      "ACME_FIN_SW1",
+      "FastEthernet0/5",
+      "straight"
+    ],
+    [
+      "ACME_FIN_PC06",
+      "FastEthernet0",
+      "ACME_FIN_SW1",
+      "FastEthernet0/6",
+      "straight"
+    ],
+    [
+      "ACME_FIN_PC07",
+      "FastEthernet0",
+      "ACME_FIN_SW1",
+      "FastEthernet0/7",
+      "straight"
+    ],
+    [
+      "ACME_FIN_PC08",
+      "FastEthernet0",
+      "ACME_FIN_SW1",
+      "FastEthernet0/8",
+      "straight"
+    ],
+    [
+      "ACME_FIN_PC09",
+      "FastEthernet0",
+      "ACME_FIN_SW1",
+      "FastEthernet0/9",
+      "straight"
+    ],
+    [
+      "ACME_FIN_PC10",
+      "FastEthernet0",
+      "ACME_FIN_SW1",
+      "FastEthernet0/10",
+      "straight"
+    ],
+    [
+      "ACME_ENG_SW1",
+      "FastEthernet0/24",
+      "ACME_CORE_SW1",
+      "FastEthernet0/5",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC01",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/1",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC02",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/2",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC03",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/3",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC04",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/4",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC05",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/5",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC06",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/6",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC07",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/7",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC08",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/8",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC09",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/9",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC10",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/10",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC11",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/11",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC12",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/12",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC13",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/13",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC14",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/14",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC15",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/15",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC16",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/16",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC17",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/17",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC18",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/18",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC19",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/19",
+      "straight"
+    ],
+    [
+      "ACME_ENG_PC20",
+      "FastEthernet0",
+      "ACME_ENG_SW1",
+      "FastEthernet0/20",
+      "straight"
+    ],
+    [
+      "ACME_INTRANET",
+      "FastEthernet0",
+      "ACME_CORE_SW1",
+      "FastEthernet0/6",
+      "straight"
+    ],
+    [
+      "ACME_FTP",
+      "FastEthernet0",
+      "ACME_CORE_SW1",
+      "FastEthernet0/7",
+      "straight"
+    ],
+    [
+      "ACME_GUEST_AP1",
+      "Ethernet0",
+      "ACME_CORE_SW1",
+      "FastEthernet0/8",
+      "straight"
+    ],
+    [
+      "ACME_WIFI_CLIENT01",
+      "FastEthernet0",
+      "ACME_CORE_SW1",
+      "FastEthernet0/9",
+      "straight"
+    ],
+    [
+      "ACME_WIFI_CLIENT02",
+      "FastEthernet0",
+      "ACME_CORE_SW1",
+      "FastEthernet0/10",
+      "straight"
+    ],
+    [
+      "ACME_WIFI_CLIENT03",
+      "FastEthernet0",
+      "ACME_CORE_SW1",
+      "FastEthernet0/11",
+      "straight"
+    ],
+    [
+      "ACME_WIFI_CLIENT04",
+      "FastEthernet0",
+      "ACME_CORE_SW1",
+      "FastEthernet0/12",
+      "straight"
+    ],
+    [
+      "ACME_VPN_CLIENT01",
+      "FastEthernet0",
+      "ACME_CORE_SW1",
+      "FastEthernet0/13",
+      "straight"
+    ],
+    [
+      "ACME_VPN_CLIENT02",
+      "FastEthernet0",
+      "ACME_CORE_SW1",
+      "FastEthernet0/14",
+      "straight"
+    ]
+  ],
+  "annotations": [
+    {
+      "name": "ACME_MKT_NOTE",
+      "department": "Marketing",
+      "text": "Marketing\nSubnet: 10.10.10.0/24\nMask: 255.255.255.0\nGateway: 10.10.10.1\nVLAN: 10\nSwitch: ACME_MKT_SW1",
+      "x": 80,
+      "y": 390
+    },
+    {
+      "name": "ACME_HR_NOTE",
+      "department": "HR",
+      "text": "HR\nSubnet: 10.10.20.0/24\nMask: 255.255.255.0\nGateway: 10.10.20.1\nVLAN: 20\nSwitch: ACME_HR_SW1",
+      "x": 700,
+      "y": 390
+    },
+    {
+      "name": "ACME_BIZ_NOTE",
+      "department": "Business",
+      "text": "Business\nSubnet: 10.10.30.0/24\nMask: 255.255.255.0\nGateway: 10.10.30.1\nVLAN: 30\nSwitch: ACME_BIZ_SW1",
+      "x": 1320,
+      "y": 390
+    },
+    {
+      "name": "ACME_FIN_NOTE",
+      "department": "Finance",
+      "text": "Finance\nSubnet: 10.10.40.0/24\nMask: 255.255.255.0\nGateway: 10.10.40.1\nVLAN: 40\nSwitch: ACME_FIN_SW1",
+      "x": 80,
+      "y": 950
+    },
+    {
+      "name": "ACME_ENG_NOTE",
+      "department": "Engineering",
+      "text": "Engineering\nSubnet: 10.10.50.0/24\nMask: 255.255.255.0\nGateway: 10.10.50.1\nVLAN: 50\nSwitch: ACME_ENG_SW1",
+      "x": 700,
+      "y": 950
+    },
+    {
+      "name": "ACME_WIRELESS_NOTE",
+      "department": "Wireless",
+      "text": "Wireless\nSubnet: 10.10.60.0/24\nMask: 255.255.255.0\nGateway: 10.10.60.1\nSSID: unverified",
+      "x": 1320,
+      "y": 1110
+    },
+    {
+      "name": "ACME_VPN_NOTE",
+      "department": "VPN",
+      "text": "External VPN\nSubnet: 10.10.70.0/24\nMask: 255.255.255.0\nGateway: 10.10.70.1\nAccess: intranet only (policy)",
+      "x": 1320,
+      "y": 140
+    }
+  ],
+  "metadata": {
+    "company": "ACME",
+    "prefix": "ACME",
+    "schema": "ptbuilder.company-plan.v1"
+  }
+}

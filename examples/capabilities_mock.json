@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "schema": "ptbuilder.capabilities.v1",
+  "summary": {
+    "devicesScanned": 4,
+    "rootsScanned": 6,
+    "operations": 10,
+    "uiAutomationAvailable": true
+  },
+  "operations": {
+    "topology.device.create": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high"
+    },
+    "topology.link.create": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high"
+    },
+    "topology.snapshot": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high"
+    },
+    "pc.ip.configure": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high"
+    },
+    "pc.gateway.configure": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high"
+    },
+    "pc.dns.configure": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high"
+    },
+    "ios.cli.configure": {
+      "supported": true,
+      "adapter": "builder-js",
+      "confidence": "high"
+    },
+    "server.ftp.configure": {
+      "supported": true,
+      "adapter": "ui-automation-required",
+      "confidence": "medium"
+    },
+    "wireless.ssid.configure": {
+      "supported": true,
+      "adapter": "ui-automation-required",
+      "confidence": "medium"
+    },
+    "vpn.configure": {
+      "supported": true,
+      "adapter": "ios-cli-or-ui",
+      "confidence": "medium"
+    }
+  }
+}

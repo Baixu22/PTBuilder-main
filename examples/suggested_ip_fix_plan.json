@@ -1,0 +1,48 @@
+{
+  "pcConfigs": {
+    "PTB_TEST_PC2": {
+      "ip": "192.168.10.30",
+      "mask": "255.255.255.0"
+    }
+  },
+  "removeLinks": [],
+  "links": [],
+  "manualActions": [
+    {
+      "type": "inspect-link",
+      "link": 1,
+      "uuid": "{bcf08a9f-924e-5dc2-9d8b-7b5f714059ee}",
+      "hint": "Packet Tracer did not expose both endpoints. Inspect the cable visually or redraw it."
+    },
+    {
+      "type": "assign-terminal-ip",
+      "device": "PTB_TEST_PC2",
+      "port": "FastEthernet0",
+      "hint": "Add this device to pcConfigs with ip/mask/gateway."
+    }
+  ],
+  "sourceIssues": [
+    {
+      "severity": "warn",
+      "type": "link-endpoint-unresolved",
+      "link": 1,
+      "uuid": "{bcf08a9f-924e-5dc2-9d8b-7b5f714059ee}",
+      "fix": "inspect-cable-or-redraw-link"
+    },
+    {
+      "severity": "warn",
+      "type": "terminal-ip-missing",
+      "device": "PTB_TEST_PC2",
+      "port": "FastEthernet0",
+      "ip": "0.0.0.0",
+      "mask": "0.0.0.0",
+      "fix": "configure-pc"
+    }
+  ],
+  "generatedBy": "ptbuilder suggest-plan",
+  "strategy": {
+    "startHost": 30,
+    "gateway": null,
+    "subnet": "192.168.10.0/24"
+  }
+}

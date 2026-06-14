@@ -1,0 +1,19 @@
+{
+  "schema": "ptbuilder.operation-request.v1",
+  "services": [
+    {
+      "device": "ACME_FTP",
+      "service": "ftp",
+      "enabled": true,
+      "logicalX": 900,
+      "logicalY": 160,
+      "users": [
+        {
+          "username": "ptb_plan_staff",
+          "password": "ptbPlan123",
+          "permission": "RWDNL"
+        }
+      ]
+    }
+  ]
+}
