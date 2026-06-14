@@ -57,7 +57,7 @@ Use `--pt-path` when Packet Tracer is installed somewhere else.
 
 1. Open Cisco Packet Tracer.
 2. Go to **Extensions** > **Scripting** > **Configure PT Script Modules**.
-3. Add `ptbuilder-bridge.pts` or `Builder.pts`.
+3. Add [ptbuilder-bridge.pts](ptbuilder-bridge.pts).
 4. Open **Extensions** > **Builder Code Editor**.
 5. Keep the CLI bridge enabled when using bridge mode.
 
@@ -154,4 +154,3 @@ This project is based on the original Packet Tracer Builder idea: a JavaScript
 extension that creates and configures Packet Tracer networks from code. This
 fork focuses on making that workflow scriptable, inspectable, and friendly to
 agent-driven automation.
-
