@@ -1,119 +1,157 @@
-**NEW:** Check out the [cisco-pt-mcp](https://muhammadbalawal.github.io/cisco-pt-mcp/) extension: Have AI create your Packet Tracer networks! Open source!
+# PTBuilder Main
 
----
+PTBuilder Main is a Cisco Packet Tracer 8.2.x automation workspace built on
+top of Packet Tracer Builder. It keeps the original JavaScript-based Builder
+extension, then adds a local Python CLI, bridge server, UI automation helpers,
+topology planning, auditing, layout repair, and result-aware connectivity
+checks.
 
-# Packet Tracer Builder
+The goal is to let an agent or engineer move from a high-level network intent
+to a real Packet Tracer topology without repeatedly pasting JavaScript into the
+Packet Tracer UI by hand.
 
-_Packet Tracer Builder_ is an extension that allows you to use JavaScript code to create networks.
+## What It Can Do
 
-It provides a code editor window and a set of simple functions that can be called to create, configure, and link devices.
+- Create devices, links, PC IP settings, IOS CLI snippets, and company-style
+  topology plans.
+- Export the current Packet Tracer topology into JSON.
+- Audit existing topologies for missing IPs, duplicate IPs, broken links,
+  invalid gateways, close device placement, and related issues.
+- Generate and apply repair plans.
+- Relayout crowded existing topologies so UI automation can target devices
+  more reliably.
+- Drive Packet Tracer through a WebView bridge or a visible UI automation
+  fallback.
+- Read Packet Tracer's user-created PDU list and report actual ICMP
+  success/failure status.
 
-For example:
+## Repository Layout
 
+```text
+ptbuilder.py              Main CLI, bridge server, audit, planning, and tests
+source/                   Packet Tracer Builder JavaScript module and UI
+tools/                    UI automation, diagnostics, and helper scripts
+examples/                 Plans, snapshots, capability manifests, and requests
+Builder.pts               Original Builder script module package
+ptbuilder-bridge.pts      Builder package with bridge support
+AGENT.md                  Notes for automation agents working in this repo
 ```
-addDevice("R1","2911",100,100);
-addDevice("S1","2960-24TT",200,100);
-addDevice("PC1","PC-PT",300,100);
-addLink("R1","GigabitEthernet0/1","S1","GigabitEthernet0/1", "straight");
-addLink("S1","FastEthernet0/1","PC1","FastEthernet0", "straight");
+
+## Requirements
+
+- Windows with Cisco Packet Tracer 8.2.x installed.
+- Python 3.10+.
+- PowerShell for the UI automation helpers.
+- Optional: Node.js for checking JavaScript files.
+- Optional: GitHub CLI (`gh`) for repository and PR workflows.
+
+The default Packet Tracer path used by the CLI is:
+
+```text
+D:\software\Cisco Packet Tracer 8.2.2\bin\PacketTracer.exe
 ```
 
-Produces:
+Use `--pt-path` when Packet Tracer is installed somewhere else.
 
-![Screenshot](screenshot1.jpg)
+## Packet Tracer Setup
 
-You can also use loops and other JavaScript features to automate it. For example, to create 10 switches:
+1. Open Cisco Packet Tracer.
+2. Go to **Extensions** > **Scripting** > **Configure PT Script Modules**.
+3. Add `ptbuilder-bridge.pts` or `Builder.pts`.
+4. Open **Extensions** > **Builder Code Editor**.
+5. Keep the CLI bridge enabled when using bridge mode.
 
-```
-for (let n=1; n <= 10; n++) {
-    addDevice("S" + n,"2960-24TT",n * 100,100);
-}
-```
+## Quick Start
 
-Produces:
+Start the local bridge server:
 
-![Screenshot](screenshot2.jpg)
-
-**But why???**
-
-This was dreamt up as a method to allow **AI chatbots** to **automate** the **creation** of **Packet Tracer networks**.
-
-## Installation
-
-1. Download [Builder.pts](https://github.com/kimmknight/PTBuilder/blob/main/Builder.pts)
-
-2. In Packet Tracer, click **Exensions** > **Scripting** > **Configure PT Script Modules**
-
-3. Click the **Add...** button and locate **Builder.pts**
-
-## Use
-
-Once installed, you can open the code editor at any time by clicking **Extensions** > **Builder Code Editor**.
-
-## CLI bridge
-
-This fork can also be driven from a local CLI so agents do not need to paste
-JavaScript into the Packet Tracer window manually.
-
-1. Start the bridge server:
-
-```
+```powershell
 python ptbuilder.py serve
 ```
 
-2. Launch Cisco Packet Tracer 8.2 if needed:
+Launch Packet Tracer if needed:
 
-```
+```powershell
 python ptbuilder.py launch
 ```
 
-If Packet Tracer is installed in a non-standard location:
+Check connection health:
 
-```
-python ptbuilder.py launch --pt-path "C:\Path\To\PacketTracer.exe"
-```
-
-3. Open Packet Tracer and open **Extensions** > **Builder Code Editor**. Keep
-   the **CLI Bridge** checkbox enabled.
-
-4. Confirm the WebView is connected:
-
-```
+```powershell
 python ptbuilder.py wait-connected
 python ptbuilder.py status
-```
-
-5. Run commands from a terminal:
-
-```
-python ptbuilder.py add-device --require-connected R1 2911 100 100
-python ptbuilder.py add-device --require-connected PC1 PC-PT 300 100
-python ptbuilder.py add-link --require-connected R1 GigabitEthernet0/1 PC1 FastEthernet0 straight
-python ptbuilder.py get-network --require-connected
-python ptbuilder.py run --require-connected topology.js
-```
-
-If the installed `Builder.pts` is the original legacy module without the CLI
-Bridge controls, the CLI automatically falls back to driving the visible
-**Builder Code Editor** window. Keep that window open and run:
-
-```
-python ptbuilder.py pc-link-test
-```
-
-Use `python ptbuilder.py status` to see the selected transport. It reports
-`bridge` for the updated module and `ui` for legacy window automation.
-
-The bridge listens on `http://127.0.0.1:54321`. The WebView polls `/next`,
-executes the JavaScript through Packet Tracer's scripting engine, and posts the
-structured result back to `/result`.
-
-For setup checks, run:
-
-```
 python ptbuilder.py doctor
 ```
 
-## Documentation
+Create a small topology:
 
-In the [Wiki](https://github.com/kimmknight/PTBuilder/wiki), you will find information on the available functions, as well as lists of usable devices, links, and modules.
+```powershell
+python ptbuilder.py add-device R1 2911 100 100
+python ptbuilder.py add-device PC1 PC-PT 300 100
+python ptbuilder.py add-link R1 GigabitEthernet0/1 PC1 FastEthernet0 straight
+```
+
+Export and audit the current topology:
+
+```powershell
+python ptbuilder.py export-current --file examples\current_snapshot.json --output summary
+python ptbuilder.py audit --output summary
+```
+
+## Layout Repair
+
+For existing topologies where devices are stacked too tightly, generate and
+apply a layout repair:
+
+```powershell
+python ptbuilder.py layout-plan --plan-file examples\layout_repair_plan.json --output summary
+python ptbuilder.py patch-from-plan examples\layout_repair_plan.json --dry-run --output summary
+python ptbuilder.py relayout-current --audit --timeout 30 --output summary
+```
+
+Add `--include-network-devices` when switches, routers, and APs should move
+with endpoint groups.
+
+## Connectivity Testing
+
+Fast PDU submission check:
+
+```powershell
+python ptbuilder.py ping PC1 PC2 --output summary
+```
+
+Actual Packet Tracer PDU result check:
+
+```powershell
+python ptbuilder.py ping PC1 PC2 --wait-result --timeout 20 --output summary
+```
+
+Batch tests:
+
+```powershell
+python ptbuilder.py test-matrix --sources PC1,PC2 --destination SERVER1 --mode pdu-result --show-passed --timeout 30 --output summary
+```
+
+Read the current Packet Tracer PDU list:
+
+```powershell
+python ptbuilder.py pdu-list --open-list --output summary
+```
+
+## Development Checks
+
+Run the relevant checks before committing changes:
+
+```powershell
+python -m py_compile ptbuilder.py
+node --check source\userfunctions.js
+powershell -NoProfile -Command "[scriptblock]::Create((Get-Content -Raw -LiteralPath 'tools\ptbuilder_ui_pdu_list.ps1')) | Out-Null; Write-Output 'parse-ok'"
+```
+
+## Upstream
+
+This project is based on the original Packet Tracer Builder idea: a JavaScript
+extension that creates and configures Packet Tracer networks from code. This
+fork focuses on making that workflow scriptable, inspectable, and friendly to
+agent-driven automation.
+

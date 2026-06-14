@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Node and frontend tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local runtime logs
+*.log
+ptbuilder-bridge.err.log
+ptbuilder-bridge.out.log
+
+# Local scratch and editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Codex/local handoff notes
+NEXT_WORK_HANDOFF.md
+
+# Browser and diagnostics artifacts
+*.har
+*.heapsnapshot
+*.network-request
+*.network-response
+trace.json
+trace.json.gz
+
